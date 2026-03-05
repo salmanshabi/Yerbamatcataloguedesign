@@ -53,7 +53,7 @@ export function ProductCard({ name, image, weight, description, weights, sku, im
         </div>
 
         {/* Content */}
-        <div className="p-5 flex flex-col flex-1 text-right">
+        <div className="p-5 flex flex-col flex-1 text-right" dir="rtl">
           <h3 className="text-[#1C2B1E] mb-1" style={{ fontFamily: 'Secular One, sans-serif', fontWeight: 400, fontSize: '1.05rem' }}>
             {name}
           </h3>
@@ -78,7 +78,7 @@ export function ProductCard({ name, image, weight, description, weights, sku, im
             <Tag size={14} style={{ color: '#5A7260', flexShrink: 0 }} />
           </div>
 
-          <p className="text-sm leading-relaxed mb-5 flex-1" style={{ color: '#4A5E4D' }}>
+          <p className="text-sm leading-relaxed mb-5 flex-1" dir="rtl" style={{ color: '#4A5E4D' }}>
             {description}
           </p>
 
@@ -137,7 +137,7 @@ export function ProductCard({ name, image, weight, description, weights, sku, im
                 />
               </div>
 
-              <div className="px-6 pb-5 text-right" style={{ borderTop: '1px solid rgba(44,84,50,0.1)' }}>
+              <div className="px-6 pb-5 text-right" dir="rtl" style={{ borderTop: '1px solid rgba(44,84,50,0.1)' }}>
                 <p className="pt-4 text-base" style={{ color: '#1C2B1E', fontFamily: 'Secular One, sans-serif', fontWeight: 400 }}>
                   {name}
                 </p>

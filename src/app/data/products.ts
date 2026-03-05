@@ -12,7 +12,7 @@ import noblezaGaucha1kgImg from '/images/a1961919bf8401f9fcb0f5c95ca1a70b16d5332
 import piporeImg from '/images/e516035b51b6f93457859063017700985c2e1813.png';
 import pipore500gImg from '/images/516526de9bafe09c0107e71e1736e9779afeb408.png';
 import pipore1kgImg from '/images/06ef619ccfa03a7052bb5825814b95c34bc021ff.png';
-import pipore1kgNewImg from '/images/pipore-1kg-new.png';
+import pipore1kgNewImg from '/images/cd3b7be0-18c9-4b63-b252-577156047683.png';
 import roundTinBoxImg from '/images/ecbc81a033811928a9751fabcb525409ebb596c2.png';
 import campesinoImg from '/images/0940a68d88d86a615ef9f7872a0cde325c0659e0.png';
 import laRubiaImg from '/images/04e40e78744d85da06f4430680aee7c7bfaab863.png';

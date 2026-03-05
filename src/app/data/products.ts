@@ -1,0 +1,1234 @@
+import pompidouClassitImg2    from '/images/0adda0da01b53ca0dc84931fc905fd847b152f51.png';
+import pompidouTinBoxImg      from '/images/9d9d95370199ba9fe4d865ff27a1c21edc97541b.png';
+import pompidouClassit500gImg from '/images/d7bc7db191d9cbe58ad14750fd9630825cee679a.png';
+import pompidouOrganit250gImg  from '/images/f3488f03ae7baebdb8ce800b6d1d3c29c1e3f4cb.png';
+import pompidouOrganitImg      from '/images/62ccd587b94216ed13d215e27fae34a775a3508e.png';
+import pompidouOrganit1kgImg   from '/images/a331df80a5eaf5531fb8bb41d5462529c594c655.png';
+import pompidouFlamingoImg     from '/images/908d86ec11ea4271b6f70e72d71be9f37b3846cc.png';
+import padjaritoImg            from '/images/de4e8a500c3fbfeee23db94ae2b30e031987a93c.png';
+import padjaritoSpecialImg     from '/images/ad4344730919d7b05b2fc8e117fc21b5869a51f5.png';
+import noblezaGauchaImg        from '/images/8175c31a6edd6ad542ddfaae2cd80083b2e16d6f.png';
+import noblezaGaucha1kgImg     from '/images/a1961919bf8401f9fcb0f5c95ca1a70b16d53326.png';
+import piporeImg               from '/images/e516035b51b6f93457859063017700985c2e1813.png';
+import pipore500gImg           from '/images/516526de9bafe09c0107e71e1736e9779afeb408.png';
+import pipore1kgImg            from '/images/06ef619ccfa03a7052bb5825814b95c34bc021ff.png';
+import pipore1kgNewImg         from '/images/80101d5c9bd4788700d012f2f01e6ebbfc41539e.png';
+import roundTinBoxImg          from '/images/ecbc81a033811928a9751fabcb525409ebb596c2.png';
+import campesinoImg            from '/images/0940a68d88d86a615ef9f7872a0cde325c0659e0.png';
+import laRubiaImg              from '/images/04e40e78744d85da06f4430680aee7c7bfaab863.png';
+import selectaImg              from '/images/ec62df880946fd19bc21903c055f6491335dfd36.png';
+import cruzDeMaltaImg          from '/images/4866acaec6e2dc6bbff0f11329b3adbaab20aca3.png';
+import sultanImg               from '/images/d2a7c8111f3c2329159ad5a91ff5aa872317103f.png';
+import sultanExtractImg        from '/images/cbc1afb88ddabb3ea14749806945dc47d499ff37.png';
+import yerbaMatepiilsImg       from '/images/ad9de96401e7357b8a75ecdf8cf96298de30f9bd.png';
+import mateCupBombillaImg      from '/images/a38b55d428ab64d30013730a44a003b00f12b554.png';
+import mateCupBlackImg         from '/images/d31e168be3bf96a92644b14f4126691fb52927a5.png';
+import mateCupWoodImg          from '/images/c4168cc9938c60e16939ffb3ddc9c048f5540f69.png';
+import pompidouMateCupImg      from '/images/a870d3372f0afe7112b22cb5e2bd0f0f2e1916ea.png';
+import clayVesselImg           from '/images/56af361cedcb3e0a5a89333e59d23413be74d0b9.png';
+import pompidouLuxuryCupImg    from '/images/aeb6d780cf03a18a9922516bd2dc6b0b6eeaa4bf.png';
+import colorCupsImg            from '/images/8335dbd9bface47eee92b9bad00df4847a7980a0.png';
+import mateCup180LidImg        from '/images/3f9e6451a699dfc0bc7b38e72a6c9b4198923e97.png';
+import pompidouLogoJugImg      from '/images/70ede86cd4e934948faf24b2d7387cd5da49820d.png';
+import mateCupLedImg           from '/images/509831115cc7b23d70c46b691ca7a86e54ace40f.png';
+import bombillaImg             from '/images/d4c7c8ef9a2f850c7f5fee3b50d925759510985a.png';
+import nickelDoubleCupImg      from '/images/0b6782402ee3ddcd759d26cef91a3823bcbde86a.png';
+import pompidouBlackAlumCupImg from '/images/d7be75a0d7fdd640feb844cdbb5d8ca1feb3e9e8.png';
+import thermos1LBlackImg       from '/images/c125a1b5fdcdd17c0a3209df2c1c920ebdf9591d.png';
+import thermos1LNickelImg      from '/images/5f481e497f0e5a934b7966a206532b6d5a117d55.png';
+import hornMateCupImg          from '/images/787ff467447694163b17a26cbf6f06dbb107faf9.png';
+import gamboThermos12LImg      from '/images/a0695ab547ec08ae70fd1e8059ec64db221aef50.png';
+import mateCup210MixedImg      from '/images/68a3d67e7b7256011e37a58715b8bd7b67b8d6f6.png';
+import leatherMateCupImg       from '/images/443b8894b3251b6ccba1bd1ae00631a154727b5a.png';
+import luxuryWoodCupImg        from '/images/13d81f49618822bc9986490bf3ea3aec62c3c27d.png';
+import gourdMateCupImg         from '/images/92e5828f95c68a2745a60c26190dc74b33049b55.png';
+import naturalGourdNickelImg   from '/images/46331334fdffeacfa31abd5aefce6fc7a1fef467.png';
+import woodenMateBoxImg        from '/images/0a7e572ce66862e4e416692f12a52d027e8086a6.png';
+import bambooBombillaImg       from '/images/8d67e841af069d6e8021af9b514196312f6248d6.png';
+import mateTrailCrateImg       from '/images/d470468346c90120a8126f60f50eec3dd94a373a.png';
+import olivewoodBombillaImg    from '/images/4ef2af95f0c9f44c8900adb844a0e9da22d4093c.png';
+import coloredBombillaImg      from '/images/2b22d1440986e973f502d49aba20e40c2113a221.png';
+import classicBombillaImg      from '/images/630c5a4dd967e0784d37aaee2cc510e43f6dcdcf.png';
+import beadedBombillaImg       from '/images/562a4ffba25238514693dad10a383396ac795e8b.png';
+import beadedBombilla15Img     from '/images/016dc3cfa9becb8883c7c4f8704d35abe136c701.png';
+import aluminumThermos500Img   from '/images/8b288ed499f992dd25f7f64db0268d2ce19989ae.png';
+import herbExtractionStandImg  from '/images/293722ca70dd0326e2ed0a671feedc61d631f6b8.png';
+import blackSnakeCupImg        from '/images/ef88fa4260dedf4eef9796234254c70cd539e40b.png';
+import cosidoMoringaImg        from '/images/0cb8e23bad7e5de99fe7884aceba328aa7e0ab72.png';
+import cosidoCurcuMateImg      from '/images/67501bd5bcda359d7cc1bf958435cc0c47ed27a7.png';
+import cosidoMatchaImg         from '/images/d6aa3db9a94344b569d50a7bf0b3bd0552b2a5b1.png';
+import cosidoClassicImg        from '/images/7817c79a3760c9510821c0572d56b6a18dca0bbe.png';
+import mediterraneanHerbsImg   from '/images/73020bf1f3dbb89bb9dd8a4f48a048345a517c2b.png';
+import cardamomImg             from '/images/0555ca19d5c63160715cd97c4149122c90f77561.png';
+import cinnamonImg             from '/images/52e2ca3f06ae5edf75aa4f099afb359e825b362e.png';
+import superfoodBundleImg      from '/images/4476903a5128ba6dabf3f35a412d934c0721a5cd.png';
+import cosidoCardamomImg       from '/images/4a7d289373d4d3bbd764b4072db95db1638145aa.png';
+import cosidoCinnamonImg       from '/images/5e2888a99cdcf7e5292b7abfe74911fab21ef4fc.png';
+import cosidoMedHerbsImg       from '/images/a051780ca02603220adcb9267cd666ce9c0d27f8.png';
+import specialRoundBombillaImg from '/images/ea1ce804a63b76141b1fe49f9d2bbce0ac02e001.png';
+import pompidouSetPinkCupImg   from '/images/0926b2b9b0c274cafc7b0e56d5c48e108c8651aa.png';
+import pompidouSetCopperCupImg  from '/images/e459f36602a9fc89be5820bdd6829337785dd56d.png';
+import pompidouSetLeatherCupImg from '/images/e74da3cea6a6f640ef281ae3c37a4007b9ba1a67.png';
+import pompidouSetWhiteCupImg   from '/images/47b7732592e8fb921ea87629a919832955adbeeb.png';
+import pompidouSetClayCupImg    from '/images/7dd74ed3d0e1da261519024cc27278395ca67e7b.png';
+import pompidouSetGourdImg      from '/images/fad54e4c0eba21e242c8a68968a7fda123ca7a9e.png';
+import pompidouSetCeramicCupImg from '/images/1330861a5d9f1d0bdc87e462a5fd7ca1ed34d73b.png';
+import pompidouSetRedLeatherImg from '/images/ccee40d85a1ca34b82cb423f35511d7423b60814.png';
+import pompidouSetRedCupImg     from '/images/1c53454dd957295f8676b7d3fc8df67551751697.png';
+import baniasPakalImg           from '/images/b4832d023c6d2fa193b2f4451b2c34fb4744a9f6.png';
+import briutMehatevaPakalImg    from '/images/6e59161e0c853c48a8b9ffe93229ec6aa14aebb7.png';
+import tiyulimPakalImg          from '/images/9ab36bf9c85fc3c2e0827c5cd5aca97279d7c7d7.png';
+import steviaPompidouImg       from '/images/a0c99a70d4369c407d64421183cdde91697e1a73.png';
+import soapMudMateImg          from '/images/4bff7a5737005fa7b9c44f9b3fb473547c1fb590.png';
+import soapLavenderImg         from '/images/c3635b8c8c9da52762f927906e55fc6e109b90ca.png';
+import soapTurmericImg         from '/images/699bac098efe5c12e650eb442fbcab4ec95c5ef7.png';
+import soapPomegranateImg      from '/images/39e278246dec2c924e4af8afd046778a7a6a8a9f.png';
+import soapLemongrassImg       from '/images/e4571342d02194a41d137f1bb4dd5f9c440356ee.png';
+import shampooBarMildImg       from '/images/15eed4f486a78046b34f77585ac873b3831bf31a.png';
+
+export type ProductCategory = 'YerbaMate' | 'Sets' | 'Accessories' | 'Soaps';
+
+export interface Product {
+  id: string;
+  name: string;
+  category: ProductCategory;
+  description: string;
+  weight: string;
+  image: string;
+  sku: string;
+  featured?: boolean;
+  weights?: string[];
+  imageScale?: number;
+}
+
+/* eslint-disable no-irregular-whitespace */
+export const products: Product[] = [
+
+  // ── YerbaMate — Pompidou ───────────────────────────────────────────────────
+  {
+    id: 'org-1',
+    name: 'ג׳רבה מאטה פומפידו אורגנית',
+    category: 'YerbaMate',
+    description: 'פומפידו אורגנית — ג׳רבה מאטה ארגנטינאית מוסמכת 100% אורגנית, מגודלת ללא חומרי הדברה, דשנים כימיים או GMO במחוז מיסיונס, ארגנטינה. תמהיל עלים וגבעולים (Elaborada con Palo) בטחינה מסורתית, בעיבוד טבעי (Estacionamiento Natural) לשמירה על מלוא הארומה הירוקה והאדמתית העמוקה. טעם עשיר, מלא ומעט מריר המתפתח לאורך חליטות ממושכות. מוסמכת Organic Argentina. 250 גרם.',
+    weight: '250g',
+    image: pompidouOrganit250gImg,
+    sku: 'YM-ORG-002',
+    featured: true,
+    weights: ['250g'],
+  },
+  {
+    id: 'org-1-500g',
+    name: 'ג׳רבה מאטה פומפידו אורגנית',
+    category: 'YerbaMate',
+    description: 'פומפידו אורגנית — ג׳רבה מאטה ארגנטינאית מוסמכת 100% אורגנית, מגודלת ללא חומרי הדברה, דשנים כימיים או GMO במחוז מיסיונס, ארגנטינה. תמהיל עלים וגבעולים (Elaborada con Palo) בטחינה מסורתית, בעיבוד טבעי (Estacionamiento Natural) לשמירה על מלוא הארומה הירוקה והאדמתית העמוקה. טעם עשיר, מלא ומעט מריר המתפתח לאורך חליטות ממושכות. מוסמכת Organic Argentina. 500 גרם.',
+    weight: '500g',
+    image: pompidouOrganitImg,
+    sku: 'YM-ORG-002-500G',
+    featured: true,
+    weights: ['500g'],
+  },
+  {
+    id: 'org-1-1kg',
+    name: 'ג׳רבה מאטה פומפידו אורגנית',
+    category: 'YerbaMate',
+    description: 'פומפידו אורגנית — ג׳רבה מאטה ארגנטינאית מוסמכת 100% אורגנית, מגודלת ללא חומרי הדברה, דשנים כימיים או GMO במחוז מיסיונס, ארגנטינה. תמהיל עלים וגבעולים (Elaborada con Palo) בטחינה מסורתית, בעיבוד טבעי (Estacionamiento Natural) לשמירה על מלוא הארומה הירוקה והאדמתית העמוקה. טעם עשיר, מלא ומעט מריר המתפתח לאורך חליטות ממושכות. מוסמכת Organic Argentina. 1 ק״ג.',
+    weight: '1kg',
+    image: pompidouOrganit1kgImg,
+    sku: 'YM-ORG-002-1KG',
+    featured: true,
+    weights: ['1kg'],
+  },
+  {
+    id: 'trad-1',
+    name: 'ג׳רבה מאטה פומפידו קלאסית',
+    category: 'YerbaMate',
+    description: 'פומפידו קלאסית — ג׳רבה מאטה ארגנטינאית מסורתית מבית פומפידו, אחד המותגים המובילים והמוכרים ביותר בשוק הישראלי. תמהיל מאוזן של עלים וגבעולים (Elaborada con Palo) בטחינה בינונית, מיושן בתהליך טבעי (Estacionamiento Natural) לאורך תקופה אופטימלית להשגת האיזון המושלם בין עוצמה לעדינות. ארומה עשבונית חמה ואותנטית עם טעם עשיר, מלא ועמוק. מתאימה לשתייה לאורך כל היום. 250 גרם.',
+    weight: '250g',
+    image: pompidouClassitImg2,
+    sku: 'YM-CLS-001',
+    featured: true,
+    weights: ['250g'],
+  },
+  {
+    id: 'trad-1-500g',
+    name: 'ג׳רבה מאטה פומפידו קלאסית',
+    category: 'YerbaMate',
+    description: 'פומפידו קלאסית — ג׳רבה מאטה ארגנטינאית מסורתית מבית פומפידו, אחד המותגים המובילים והמוכרים ביותר בשוק הישראלי. תמהיל מאוזן של עלים וגבעולים (Elaborada con Palo) בטחינה בינונית, מיושן בתהליך טבעי (Estacionamiento Natural) לאורך תקופה אופטימלית להשגת האיזון המושלם בין עוצמה לעדינות. ארומה עשבונית חמה ואותנטית עם טעם עשיר, מלא ועמוק. מתאימה לשתייה לאורך כל היום. 500 גרם.',
+    weight: '500g',
+    image: pompidouClassit500gImg,
+    sku: 'YM-CLS-001-500G',
+    featured: true,
+    weights: ['500g'],
+  },
+  {
+    id: 'flav-1',
+    name: 'ג׳רבה מאטה פומפידו פלמינגו',
+    category: 'YerbaMate',
+    description: 'פומפידו פלמינגו — גרסת הפרמיום של ג׳רבה מאטה פומפידו האייקונית, ארוזה בקופסת קרטון מהודרת בצבע אדום עם עיצוב הפלמינגו הבולט של המותג. תמהיל עלים ירוקים ראשוניים בטחינה עדינה (Elaborada con Palo, Estacionamiento Natural), מציעה ארומה פרחונית-עשבונית מאוזנת ורעננה עם טעם חלק, עדין וממושך — פחות מריר מהגרסה הקלאסית. מושלמת לשתיינים המחפשים חוויית מאטה מעודנת ומיוחדת. 500 גרם.',
+    weight: '500g',
+    image: pompidouFlamingoImg,
+    sku: 'YM-FLM-003',
+    featured: false,
+    weights: ['500g'],
+  },
+  {
+    id: 'tin-1',
+    name: 'ג׳רבה מאטה פומפידו קופסת פח עם משפך',
+    category: 'YerbaMate',
+    description: 'פומפידו קלאסית — קופסת פח מהודרת. ג׳רבה מאטה פומפידו קלאסית ארגנטינאית ארוזה בקופסת פח אדומה מהודרת עם משפך עליון נוח למילוי מדויק ונקי. אריזת הפח האטומה שומרת על טריות העלים ומשמרת את הארומה העשבונית לאורך זמן רב יותר מאריזות קרטון. מתאים לשימוש יומיומי בבית, למשרד ולנקודות מכירה. 500 גרם.',
+    weight: '500g',
+    image: pompidouTinBoxImg,
+    sku: 'YM-TIN-001-500G',
+    featured: false,
+    weights: ['500g'],
+  },
+
+  // ── YerbaMate — Pompidou: בטעמים ──────────────────────────────────────────
+  {
+    id: 'flav-mediterranean-herbs-1',
+    name: 'ג׳רבה מאטה פומפידו עם צמחי ים תיכון — Mediterranean Herbs Organic',
+    category: 'YerbaMate',
+    description: 'ג׳רבה מאטה פומפידו אורגנית 100% ממוצא ארגנטינה בשילוב צמחי ים תיכון נבחרים — מנטה, קמומיל, מרווה, לבנדר ועשבי תיבול אזוריים. שילוב ייחודי המשלב את אנרגיית המאטה הדרום-אמריקאית עם הארומה הרעננה והמאוזנת של הצמחייה הים-תיכונית. ארוז בקופסת קרטון מהודרת בצבע אדום עם פלמינגו אייקוני. 250 גרם.',
+    weight: '250g',
+    image: mediterraneanHerbsImg,
+    sku: 'FLV-MED-HERB-057',
+    featured: true,
+    weights: ['250g'],
+  },
+  {
+    id: 'flav-cardamom-1',
+    name: 'ג׳רבה מאטה פומפידו עם הל — Cardamom Organic',
+    category: 'YerbaMate',
+    description: 'ג׳רבה מאטה פומפידו אורגנית 100% (Origen Argentina) בשילוב זרעי הל (Cardamom) ריחניים — תבלין מזרח-תיכוני עתיק בעל ארומה חמה, מתוקה ומעט חריפה. ההל מוסיף עומק ארומטי ייחודי למאטה ומסייע לעיכול ולרענון הנשימה. ארוז בקופסת קרטון מהודרת בצבע אדום עם לוגו הפלמינגו האייקוני של פומפידו. 250 גרם.',
+    weight: '250g',
+    image: cardamomImg,
+    sku: 'FLV-CDM-058',
+    featured: true,
+    weights: ['250g'],
+  },
+  {
+    id: 'flav-cinnamon-1',
+    name: 'ג׳רבה מאטה פומפידו עם קינמון — Cinnamon Organic',
+    category: 'YerbaMate',
+    description: 'ג׳רבה מאטה פומפידו אורגנית 100% (Origen Argentina) בשילוב קינמון (Cinnamon) — התבלין האהוב בעולם בעל ארומה חמה, מתוקה ועוטפת. הקינמון מעניק למאטה עומק ארומטי מפתיע, מאזן את המרירות הטבעית ומוסיף גוון טעם ייחודי. ארוז בקופסת קרטון אדומה מהודרת עם לוגו הפלמינגו האייקוני של פומפידו. 250 גרם.',
+    weight: '250g',
+    image: cinnamonImg,
+    sku: 'FLV-CIN-059',
+    featured: true,
+    weights: ['250g'],
+  },
+  {
+    id: 'flav-stevia-pompidou-1',
+    name: 'ג׳רבה מאטה פומפידו עם סטיביה — Pompidou Stevia 250g',
+    category: 'YerbaMate',
+    description: 'ג׳רבה מאטה פומפידו אורגנית 100% ממוצא ארגנטינה, בתוספת ממתיק סטיביה טבעי — ללא סוכר, ללא קלוריות, עם מתיקות עדינה ונעימה שמאזנת את המרירות הטבעית של המאטה. מוצר Selected Harvest של פומפידו, מגיע בקופסת קרטון כחולה מהודרת עם לוגו הפלמינגו האייקוני. 100% Natural — מושלם לאוהבי מאטה שמחפשים מתיקות טבעית בלא פשרות. 250 גרם.',
+    weight: '250g',
+    image: steviaPompidouImg,
+    sku: 'FLV-STV-065',
+    featured: true,
+    weights: ['250g'],
+  },
+
+  // ── YerbaMate — Pompidou: קוסידו ──────────────────────────────────────────
+  {
+    id: 'flav-cosido-moringa-1',
+    name: 'ג׳רבה מאטה קוסידו עם מורינגה — Pompidou Organic',
+    category: 'YerbaMate',
+    description: 'פומפידו קוסידו מורינגה — ג׳רבה מאטה קוסידו (Cocido Yerba Mate) אורגנית מבית פומפידו בשילוב מורינגה, סופר-פוד עתיר חלבון מלא, ויטמינים ומינרלים חיוניים. הקוסידו הוא ג׳רבה מאטה מיובשת ומטחנת לאבקה עדינה המאפשרת חליטה נוחה ממש כמו תה — ללא בומביז׳ה וללא ציוד מיוחד. שילוב ייחודי של אנרגיה טבעית מהמאטה עם הערכים התזונתיים הגבוהים של המורינגה. ארוז בקופסת פח מהודרת בצבע אדום. 170 גרם.',
+    weight: '170g',
+    image: cosidoMoringaImg,
+    sku: 'FLV-CSD-MRG-053',
+    featured: true,
+    weights: ['170g'],
+  },
+  {
+    id: 'flav-cosido-curcumate-1',
+    name: 'ג׳רבה מאטה קוסידו עם כורכומין — CurcuMate Pompidou Organic',
+    category: 'YerbaMate',
+    description: 'פומפידו קוסיד�� כורכומין — ג׳רבה מאטה קוסידו (Cocido Yerba Mate) אורגנית מבית פומפידו בשילוב כורכומין (Turmeric) — תבלין עוצמתי בעל סגולות אנטי-דלקתיות ונוגדות חמצון מוכחות. הקוסידו הוא ג׳רבה מאטה מיובשת ומטחנת לאבקה עדינה המאפשרת חליטה נוחה ממש כמו תה — ללא בומביז׳ה וללא ציוד מיוחד. שילוב סינרגטי של אנרגיה טבעית מהמאטה עם יתרונות הבריאות של הכורכום. ארוז בקופסה גלילית כתומה מהודרת. 170 גרם.',
+    weight: '170g',
+    image: cosidoCurcuMateImg,
+    sku: 'FLV-CSD-CRC-054',
+    featured: true,
+    weights: ['170g'],
+  },
+  {
+    id: 'flav-cosido-matcha-1',
+    name: 'ג׳רבה מאטה קוסידו עם מאצ\'ה — Pompidou Organic',
+    category: 'YerbaMate',
+    description: 'פומפידו קוסידו מאצ׳ה — ג׳רבה מאטה קוסידו (Cocido Yerba Mate) אורגנית מבית פומפידו בשילוב מאצ׳ה יפני — אבקת תה ירוק עתירת אנטיאוקסידנטים, L-Theanine וכלורופיל. הקוסידו הוא ג׳רבה מאטה מיובשת ומטחנת לאבקה עדינה המאפשרת חליטה נוחה ממש כמו תה — ללא בומביז׳ה וללא ציוד מיוחד. שילוב סינרגטי של אנרגיה ממריצה מהמאטה עם הרגיעה המרוכזת והממוקדת של המאצ׳ה. ארוז בקופסה גלילית ירוקה מהודרת עם מכסה אדום. 170 גרם.',
+    weight: '170g',
+    image: cosidoMatchaImg,
+    sku: 'FLV-CSD-MCH-055',
+    featured: true,
+    weights: ['170g'],
+  },
+  {
+    id: 'flav-cosido-classic-1',
+    name: 'ג׳רבה מאטה קוסידו קלאסי — Pompidou Flamingo',
+    category: 'YerbaMate',
+    /* __CLS_FIX__
+    description: 'ג׳רבה מאטה קוסידו (Cocido Yerba Mate) קלאסי מבית פומפידו פלמינגו — ג׳רבה מאטה ארגנטינאית "Elaborada con Palo" בעיבוד טבעי (Estacionamiento Natural) ארוזה בקופסה גלילית אדומה מהודרת. הקוסידו מאפשר חליטה נוחה ללא בומביז׳ה, בדיוק כמו תה. טעם עשיר ומלא עם ארומה עשבונית עמוקה ואותנטית. description: 'פומפידו קוסידו קלאסי — ג׳רבה מאטה קוסידו (Cocido Yerba Mate) קלאסית מבית פומפידו פלמינגו. ג׳רבה מאטה ארגנטינאית Elaborada con Palo בעיבוד טבעי (Estacionamiento Natural), מיובשת ומטחנת לאבקה עדינה. הקוסידו מאפשר חליטה נוחה ממש כמו תה — ללא בומביז׳ה וללא ציוד מיוחד. אידיאלי למשרד, לנסיעות ולמי שמחפש את טעם המאטה הקלאסי בפורמט נוח. טעם עשיר ומלא עם ארומה עשבונית ��מוקה ואותנטית. 100% Origin Argentina. 170 גרם.',
+    __CLS_FIX__ */
+    description: 'פומפידו קוסידו קלאסי — ג׳רבה מאטה קוסידו (Cocido Yerba Mate) קלאסית מבית פומפידו פלמינגו. ג׳רבה מאטה ארגנטינאית Elaborada con Palo בעיבוד טבעי (Estacionamiento Natural), מיובשת ומטחנת לאבקה עדינה. הקוסידו מאפשר חליטה נוחה ממש כמו תה — ללא בומביז׳ה וללא ציוד מיוחד. אידיאלי למשרד, לנסיעות ולמי שמחפש את טעם המאטה הקלאסי בפורמט נוח. טעם עשיר ומלא עם ארומה עשבונית עמוקה ואותנטית. 100% Origin Argentina. 170 גרם.',
+    weight: '170g',
+    image: cosidoClassicImg,
+    sku: 'FLV-CSD-CLS-056',
+    featured: true,
+    weights: ['170g'],
+  },
+  {
+    id: 'flav-cosido-cardamom-1',
+    name: 'ג׳רבה מאטה קוסידו עם היל — Pompidou Cardamom Organic',
+    category: 'YerbaMate',
+    description: 'פומפידו קוסידו היל — ג׳רבה מאטה קוסידו (Cocido Yerba Mate) אורגנית מבית פומפידו בשילוב היל (Cardamom) — תבלין מזרח-תיכוני עתיק בעל ארומה חמה, מתוקה ומעט חריפה. הקוסידו הוא ג׳רבה מאטה מיובשת ומטחנת לאבקה עדינה המאפשרת חליטה נוחה ממש כמו תה — ללא בומביז׳ה וללא ציוד מיוחד. שילוב סינרגטי של אנרגיה טבעית מהמאטה עם הניחוח הייחודי של גרגרי ההיל הטריים. ארוז בקופסה גלילית אדומה מהודרת עם לוגו פומפידו. 170 גרם.',
+    weight: '170g',
+    image: cosidoCardamomImg,
+    sku: 'FLV-CSD-CDM-061',
+    featured: true,
+    weights: ['170g'],
+  },
+  {
+    id: 'flav-cosido-med-herbs-1',
+    name: 'ג׳רבה מאטה קוסידו עם צמחי ים תיכון — Pompidou Mediterranean Herbs Organic',
+    category: 'YerbaMate',
+    description: 'ג׳רבה מאטה קוסידו (Cocido Yerba Mate) אורגנית מבית פומפידו בשילוב צמחי ים תיכון נבחרים — מנטה, מרווה, לבנדר, קמומיל ועשבי תיבול אזוריים. הקוסידו מאפשר חליטה קלה ללא בומביז׳ה, בדיוק כמו תה. שילוב ייחודי של אנרגיית המאטה הדרום-אמריקאית עם הארומה הרעננה והמאוזנת של הצמחייה הים-תיכונית. ארוז בקופסה גלילית זהובה מהודרת עם מכסה אדום ולוגו פומפידו פלמינגו. 170 גרם.',
+    weight: '170g',
+    image: cosidoMedHerbsImg,
+    sku: 'FLV-CSD-MED-063',
+    featured: true,
+    weights: ['170g'],
+  },
+  {
+    id: 'flav-cosido-cinnamon-1',
+    name: 'ג׳רבה מאטה קוסידו עם קינמון — Pompidou Cinnamon Organic',
+    category: 'YerbaMate',
+    description: 'ג׳רבה מאטה קוסידו (Cocido Yerba Mate) אורגנית מבית פומפידו בשילוב קינמון (Cinnamon) — התבלין האהוב בעולם בעל ארומה חמה, מתוקה ועוטפת. הקוסידו מאפשר חליטה קלה ללא בומביז׳ה, בדיוק כמו תה. הקינמון מאזן את המרירות הטבעית של המאטה ומוסיף עומק ארומטי מפתיע וממכר. ארוז בקופסה גלילית זהובה מהודרת עם מכסה אדום ולוגו פומפידו פלמינגו. 170 גרם.',
+    weight: '170g',
+    image: cosidoCinnamonImg,
+    sku: 'FLV-CSD-CIN-062',
+    featured: true,
+    weights: ['170g'],
+  },
+  {
+    id: 'flav-superfood-bundle-1',
+    name: 'מארז סופר פוד במבצע — Pompidou Cocido Superfood Trio',
+    category: 'YerbaMate',
+    description: 'מארז סופרפוד פומפידו — 3 קופסות קוסידו (Cocido Yerba Mate) אורגניות מבית פומפידו: קוסידו עם מורינגה, קוסידו עם כורכומין (CurcuMate) וקוסידו עם מאצ׳ה — שלושת הסופרפודים הפופולריים ביותר. כל קופסה 170 גרם, ארוזות יחד במגש מהודר. המארז אידיאלי לגילוי ראשוני, כמתנה עסקית פרמיום, לחלוקה בנקודות מכירה ולאירועים — תמחור תחרותי לרכישה כמותית.',
+    weight: '3 × 170g',
+    image: superfoodBundleImg,
+    sku: 'FLV-SPF-TRIO-060',
+    featured: true,
+    weights: ['3 × 170g'],
+  },
+    /* description: 'מארז מיוחד במחיר מבצע הכולל 3 קופסות קוסידו (Cocido Yerba Mate) אורגניות מבית פומפידו: קוסידו עם מורינגה, קוסידו עם כורכומין (CurcuMate) וקוסידו עם מאצ\'ה — שלושת ה"סופר-פודים" הפופולריים ביותר. כל קופסה 170 גרם, ארוזות יחד במגש אדום מהודר. המארז מושלם לגילוי, למתנה עסקית ולנקודות מכירה. הזמנה מינימלית לסיטונאים.',
+    weight: '3 × 170g',
+    image: superfoodBundleImg,
+    sku: 'FLV-SPF-TRIO-060',
+    featured: true,
+    weights: ['3 × 170g'],
+  }, */
+
+  // ── YerbaMate — מותגים נוספים ─────────────────────────────────────────────
+  {
+    id: 'flav-2',
+    name: 'ג׳רבה מאטה פח׳ריטו',
+    category: 'YerbaMate',
+    description: 'פח׳ריטו (Pajarito) — אחד ממותגי הג׳רבה מאטה המסורתיים, הוותיקים והאהובים ביותר בפרגואי, עם מסורת ייצור של דורות. תמהיל עלים ירוקים טריים בטחינה אחידה ללא גבעולים, המעניק ארומה ירוקה, טרייה ועוצמתית וטעם מלא, עשיר וחזק במיוחד. מתאים לשותי מאטה המחפשים עוצמה ומרירות מובהקת. אחד הנמכרים ביותר בפרגואי. 500 גרם.',
+    weight: '500g',
+    image: padjaritoImg,
+    sku: 'YM-BRY-005',
+    featured: false,
+    weights: ['500g'],
+  },
+  {
+    id: 'acc-1',
+    name: 'ג׳רבה מאטה פח׳ריטו ספסיאל',
+    category: 'YerbaMate',
+    description: 'פח׳ריטו ספסיאל (Pajarito Especial) — הגרסה המובחרת והמיוחדת של מותג פח׳ריטו הפרגואי הוותיק. עלים ירוקים נבחרים בטחינה דקה יותר מהגרסה הסטנדרטית, המעניקה עוצמה מוגברת, ארומה ירוקה ועשירה יותר וטעם חזק, עמוק וממושך. מועדפת על שותי מאטה מנוסים המחפשים עוצמה ועמקות מקסימליים. ייצוא פרמיום מפרגואי. 500 גרם.',
+    weight: '500g',
+    image: padjaritoSpecialImg,
+    sku: 'ACC-CGK-006',
+    featured: false,
+    weights: ['500g'],
+  },
+  {
+    id: 'trad-5',
+    name: 'ג׳רבה מאטה נובלזה גאוצ׳ה',
+    category: 'YerbaMate',
+    description: 'נובלזה גאוצ׳ה (Nobleza Gaucha) — אחד ממותגי הג׳רבה מאטה הוותיקים והמוערכים ביותר בארגנטינה. תמהיל קלאסי של עלים וגבעולים בטחינה בינונית-גסה, המיושן בתהליך טבעי (Estacionamiento Natural) לפיתוח מלוא עומק הטעם. מציע ארומה עשבונית עמוקה ומעט אדמתית, עם טעם מלא, רך ומאוזן שנמשך לאורך זמן — ללא מרירות חריפה. מתאים לשתייה כל היום, מועדף על שותי מאטה מנוסים ומתחילים כאחד. 500 גרם.',
+    weight: '500g',
+    image: noblezaGauchaImg,
+    sku: 'YM-NBG-011',
+    featured: false,
+    weights: ['500g'],
+  },
+  /* __CLEANUP__
+    description: 'נוב��זה גאוצ׳ה — ג׳רבה מאטה ארגנטינאית קלאסית בטחינה מאוזנת. טעם עשיר ומלא עם ארומה עשבונית description: 'נובלזה גאוצ׳ה (Nobleza Gaucha) — אחד ממותגי הג׳רבה מאטה הוותיקים והמוערכים ביותר בארגנטינה. תמהיל קלאסי של עלים וגבעולים בטחינה בינונית-גסה, המיושן בתהליך טבעי (Estacionamiento Natural) לפיתוח מלוא עומק הטעם. מציע ארומה עשבונית עמוקה ומעט אדמתית, עם טעם מלא, רך ומאוזן שנמשך לאורך זמן — ללא מרירות חריפה. מתאים לשתייה כל היום, מועדף על שותי מאטה מנוסים ומתחילים כאחד. 500 גרם.',
+    weight: '500g',
+    image: noblezaGauchaImg,
+  __CLEANUP__ */
+  {
+    id: 'trad-5-1kg',
+    name: 'ג׳רבה מאטה נובלזה גאוצ׳ה',
+    category: 'YerbaMate',
+    description: 'נובלזה גאוצ׳ה (Nobleza Gaucha) — אחד ממותגי הג׳רבה מאטה הוותיקים והמוערכים ביותר בארגנטינה. תמהיל קלאסי של על��ם וגבעולים בטחינה בינוני��-גסה, המיושן בתהליך טבעי (Estacionamiento Natural) לפיתוח מלוא עומק הטעם. מציע ארומה עשבונית עמוקה ומעט אדמתית, עם טעם מלא, רך ומאוזן שנמשך לאורך זמן — ללא מרירות חריפה. מתאים לשתייה כל היום, מועדף על שותי מאטה מנוסים ומתחילים כאחד. 1 ק״ג.',
+    weight: '1kg',
+    image: noblezaGaucha1kgImg,
+    sku: 'YM-NBG-011-1KG',
+    featured: false,
+    weights: ['1kg'],
+  },
+  {
+    id: 'trad-6',
+    name: 'ג׳רבה מאטה פיפורה אוריג׳ינל',
+    category: 'YerbaMate',
+    description: 'פיפורה אוריג׳ינל (Pipore Original) — ג׳רבה מאטה ארגנטינאית מסורתית ממח��ז מיסיונס, עם גבעולים, בעיבוד טבעי איטי (Estacionamiento Natural) המאפשר לעלים להבשיל ולפתח מלוא הארומה. ארומה עשבונית עמוקה ואדמתית, עם טעם מאוזן, מלא ונמשך לאורך חליטות. מתאימה לשתיינים המחפשים ג׳רבה מאטה קלאסית ואותנטית. 250 גרם.',
+    weight: '250g',
+    image: piporeImg,
+    sku: 'YM-PPR-012',
+    featured: false,
+    weights: ['250g'],
+  },
+  {
+    id: 'trad-6-500g',
+    name: 'ג׳רבה מאטה פיפורה אוריג׳ינל',
+    category: 'YerbaMate',
+    description: 'פיפורה אוריג׳ינל (Pipore Original) — ג׳רבה מאטה ארגנטינאית מסורתית ממחוז מיסיונס, עם גבעולים, בעיבוד טבעי איטי (Estacionamiento Natural) המאפשר לעלים להבשיל ולפתח מלוא הארומה. ארומה עשבונית עמוקה ואדמתית, עם טעם מאוזן, מלא ונמשך לאורך חליטות. מתאימה לשתיינים המחפשים ג׳רבה מאטה קלאסית ואותנטית. 500 גרם.',
+    weight: '500g',
+    image: pipore500gImg,
+    sku: 'YM-PPR-012-500g',
+    featured: false,
+    weights: ['500g'],
+  },
+  {
+    id: 'trad-6-1kg',
+    name: 'ג׳רבה מאטה פיפורה אוריג׳ינל',
+    category: 'YerbaMate',
+    description: 'פיפורה אוריג׳ינל (Pipore Original) — ג׳רבה מאטה ארגנטינאית מסורתית ממחוז מיסיונס, עם גבעולים, בעיבוד טבעי איטי (Estacionamiento Natural) המאפשר לעלים להבשיל ולפתח מלוא הארומה. ארומה עשבונית עמוקה ואדמתית, עם טעם מאוזן, מלא ונמשך לאורך חליטות. מתאימה לשתיינים המחפשים ג׳רבה מאטה קלאסית ואותנטית. 1 ק״ג.',
+    weight: '1kg',
+    image: pipore1kgNewImg,
+    sku: 'YM-PPR-012-1kg',
+    featured: false,
+    weights: ['1kg'],
+  },
+  {
+    id: 'trad-7',
+    name: 'ג׳רבה מאטה קמפסינו קלאסיק',
+    category: 'YerbaMate',
+    description: 'קמפסינו קלאסיק (Campesino Classic) — ג׳רבה מאטה פרגואית מסורתית מבית Campesino, מותג ותיק ומכובד בפרגואי. תמהיל עשבוני עשיר המשלב עלים ירוקים עם גבעולים בטחינה מסורתית, בעל ארומה עשבונית אותנטית, טעם עמוק ומיוחד עם גוון מעט מתוק. מוצר טבעי נבחר, ללא תוספות. 500 גרם.',
+    weight: '500g',
+    image: campesinoImg,
+    sku: 'YM-CMP-013',
+    featured: false,
+    weights: ['500g'],
+  },
+  {
+    id: 'trad-8',
+    name: 'ג׳רבה מאטה לה רוביה אורגנית',
+    category: 'YerbaMate',
+    description: 'לה רוביה אורגנית (La Rubia Orgánica) — ג׳רבה מאטה פרגואית אורגנית מוסמכת בייצור מוגבל, מגודלת ללא חומרי הדברה ודשנים כימיים. טחינה מסורתית עם עלים ירוקים בשלים המעניקים ארומה עשבונית נקייה, טרייה ואותנטית. טעם עדין ומאוזן, פחות מריר מגרסאות קונבנציונליות — מושלמת לשתיינים המחפשים חוויית מאטה אורגנית נקייה וטהורה. 500 גרם.',
+    weight: '500g',
+    image: laRubiaImg,
+    sku: 'YM-LRB-014',
+    featured: false,
+    weights: ['500g'],
+  },
+  {
+    id: 'trad-9',
+    name: 'ג׳רבה מאטה סלקטה',
+    category: 'YerbaMate',
+    description: 'סלקטה (Selecta) — ג׳רבה מאטה פרגואית מובחרת בטחינה גרנולרית (Molienda Granulada) ייחודית, המעניקה זרימת שתייה מאוזנת ואחידה. ללא גלוטן, מוצר איכות ייצוא. ארומה עשבונית נקייה ורעננה עם טעם מלא, עגול ומאוזן — פחות מריר מגרסאות בטחינה דקה. מתאים לשתיינים המחפשים מאטה פרגואית איכותית עם פרופיל טעם נעים ונגיש. 500 גרם.',
+    weight: '500g',
+    image: selectaImg,
+    sku: 'YM-SLC-015',
+    featured: false,
+    weights: ['500g'],
+  },
+  {
+    id: 'trad-10',
+    name: 'ג׳רבה מאטה קרוז דה מלטה',
+    category: 'YerbaMate',
+    description: 'קרוז דה מלטה (Cruz de Malta) — ג׳רבה מאטה ארגנטינאית מסורתית מאז שנת 1874, אחד ממותגי המאטה העתיקים והמכובדים ביותר בארגנטינה. תמהיל עלים גדולים ובוגרים עם גבעולים, בטחינה גסה, המעניק טעם רך, עגול וממושך ללא מרירות חדה. ארומה חמה ועשירה עם גוון עץ עדין ואדמתי. מתאים לשתיינים מכל הרמות. 500 גרם.',
+    weight: '500g',
+    image: cruzDeMaltaImg,
+    sku: 'YM-CDM-016',
+    featured: false,
+    weights: ['500g'],
+  },
+  {
+    id: 'trad-11',
+    name: 'תיות מאטה סולטן',
+    category: 'YerbaMate',
+    description: 'תיות מאטה סולטן — 30 תיות ג׳רבה מאטה ארגנטינאית טבעיות לחליטה נוחה, מהירה ונקייה. ג׳רבה מאטה איכותית טחונה דק ארוזה בתיות בודדות, מאפשרת הכנה ממש כמו תה — ללא בומביז׳ה וללא ציוד מיוחד. אידיאלי למשרד, לנסיעות, ולמי שמחפש את טעם המאטה בפורמט נוח ומהיר. כל תית מכילה מינון מדויק לחליטה מאוזנת וטעימה.',
+    weight: '30 תיות',
+    image: sultanImg,
+    sku: 'YM-SLT-017',
+    featured: false,
+    weights: ['30 תיות'],
+  },
+  {
+    id: 'trad-12',
+    name: 'תמצית מאטה סולטן — Yerba Mate Extract',
+    category: 'YerbaMate',
+    description: 'תמצית מאטה סולטן אורגנית 100% — נוסחת Healthy Energizer ייחודית ללא אלכוהול. מרוכז של פוליפנולים, מתילקסנטינים וכלורופיל מג׳רבה מאטה ארגנטינאית איכותית. מעודדת עירנות מנטלית וריכוז, תומכת ברמות אנרגיה טבעית יציבה, מספקת אנטיאוקסידנטים עוצמתיים ומחזקת את מערכת החיסון. נוח לשימוש — מספר טיפות בכל פעם. 60 מ״ל.',
+    weight: '60 מ״ל',
+    image: sultanExtractImg,
+    sku: 'YM-SLT-EXT-018',
+    featured: true,
+    weights: ['60 מ״ל'],
+  },
+  {
+    id: 'trad-13',
+    name: 'כדורי מאטה סולטן — Yerba Mate Pills',
+    category: 'YerbaMate',
+    description: 'כדורי מאטה סולטן — Source Naturals, Be Well. 60 טבליות ג׳רבה מאטה טבעיות לנוחות מקסימלית. תוסף תזונה עשיר באנטיאוקסידנטים (פוליפנולים, כלורופיל ומתילקסנטינים), תומך באנרגיה טבעית, ריכוז וחילוף חומרים — ללא קפאין סינתטי מוסף. מינון נוח ומדויק, אידיאלי לשימוש יומיומי ולנסיעות.',
+    weight: '60 טבליות',
+    image: yerbaMatepiilsImg,
+    sku: 'YM-PIL-019',
+    featured: false,
+    weights: ['60 טבליות'],
+  },
+
+
+  // ── Sets — סט פומפידו עם כוס ורודה ───────────────────────────────────────
+  {
+    id: 'set-pompidou-pink-cup-1',
+    name: 'סט ג׳רבה מאטה פומפידו — חליטה אורגנית + כוס מאטה ורודה 120 מ״ל',
+    category: 'Sets',
+    description: 'סט ז׳רבה מאטה פומפידו יפה ומעשי — מכיל 500 גרם חליטה פומפידו אורגנית (Elaborada con Palo, Origen Argentina) בשילוב כוס מאטה 120 מ״ל בצבע ורוד-רוז עשויה נירוסטה. הסט מגיע בקופסת מתנה מהודרת בצבע אדום, מושלם לשימוש יומיומי, למתנה עסקית ולנקודות מכירה.',
+    weight: '500g + כוס 120 מ״ל',
+    image: pompidouSetPinkCupImg,
+    sku: 'SET-PMP-PINK-CUP-001',
+    featured: true,
+    weights: ['500g + כוס 120 מ״ל'],
+  },
+
+  {
+    id: 'set-pompidou-copper-cup-1',
+    name: 'סט ג׳רבה מאטה פומפידו — חליטה אורגנית + כוס מאטה מפוארת 180 מ״ל עם מכסה',
+    category: 'Sets',
+    description: 'סט ג׳רבה מאטה פומפידו יפה ומעשי — מכיל 500 גרם חליטה פומפידו אורגנית (Elaborada con Palo, Origen Argentina) בשילוב כוס מאטה מפוארת 180 מ״ל בציפוי נחושת עם בומביז׳ה מנירוסטה ומכסה. הסט מגיע בקופסת מתנה מהודרת בצבע אדום — מושלם לשימוש יומיומי, למתנה עסקית ולנקודות מכירה.',
+    weight: '500g + כוס 180 מ״ל',
+    image: pompidouSetCopperCupImg,
+    sku: 'SET-PMP-COP-CUP-002',
+    featured: true,
+    weights: ['500g + כוס 180 מ״ל'],
+  },
+
+  {
+    id: 'set-pompidou-leather-cup-1',
+    name: 'סט ג׳רבה מאטה פומפידו — חליטה אורגנית + כוס מאטה 270 מ״ל מכוסה בעור',
+    category: 'Sets',
+    description: 'סט ג׳רבה מאטה פומפידו יפה ומעשי — מכיל 500 גרם חליטה פומפידו אורגנית (Elaborada con Palo, Estacionamiento Natural, Origen Argentina) בשילוב כוס מאטה מפוארת 270 מ״ל עטופה בעור סגול עם בומביז׳ה מנירוסטה. הסט מגיע בקופסת מתנה מהודרת בצבע אדום — מושלם לשימוש יומיומי, למתנה עסקית ולנקודות מכירה.',
+    weight: '500g + כוס 270 מ״ל',
+    image: pompidouSetLeatherCupImg,
+    sku: 'SET-PMP-LTH-CUP-003',
+    featured: true,
+    weights: ['500g + כוס 270 מ״ל'],
+  },
+
+  {
+    id: 'set-pompidou-white-cup-bombilla-1',
+    name: 'סט ג׳רבה מאטה פומפידו — חליטה אורגנית + כוס מאטה + במביגה מפוארת',
+    category: 'Sets',
+    description: 'סט ג׳רבה מאטה פומפידו יפה ומעשי — מכיל 500 גרם חליטה פומפידו אורגנית (Elaborada con Palo, Estacionamiento Natural, Origen Argentina) בשילוב כוס מאטה לבנה עם לוגו פומפידו ובמביגה מנירוסטה מפוארת. בתוך הסט כלולה גם הדרכה מלאה איך להכין מאטה כמו המקצוענים. הסט מגיע בקופסת מתנה מהודרת בצבע אדום — מושלם לשימוש יומיומי, למת��ה עסקית ולנקודות מכירה.',
+    weight: '500g + כוס + במביגה',
+    image: pompidouSetWhiteCupImg,
+    sku: 'SET-PMP-WHT-CUP-004',
+    featured: true,
+    weights: ['500g + כוס + במביגה'],
+  },
+
+  {
+    id: 'set-pompidou-clay-cup-1',
+    name: 'סט ג׳רבה מאטה פומפידו — חליטה אורגנית + כוס חימר חום + במביגה',
+    category: 'Sets',
+    description: 'סט ג׳רבה מאטה פומפידו יפה ומעשי — מכיל 500 גרם חליטה פומפידו אורגנית (Elaborada con Palo, Estacionamiento Natural, Origen Argentina) בשילוב כוס מאטה מחימר חום טבעי ובמביגה מנירוסטה מפוארת. כוס החימר מעניקה למאטה טעם עמוק ואותנטי בדיוק כמו בארגנטינה. הסט מגיע בקופסת מתנה מהודרת בצבע אדום — מושלם לשימוש יומיומי, למת��ה עסקית ולנקודות מכירה.',
+    weight: '500g + כוס חימר + במביגה',
+    image: pompidouSetClayCupImg,
+    sku: 'SET-PMP-CLY-CUP-005',
+    featured: true,
+    weights: ['500g + כוס חימר + במביגה'],
+  },
+
+  {
+    id: 'set-pompidou-gourd-bombilla-1',
+    name: 'סט מתנה פומפידו — 500 גרם ג׳רבה מאטה + דלעת טבעית + במביגה',
+    category: 'Sets',
+    description: 'סט מתנה פומפידו מהודר — מכיל 500 גרם חליטת ז׳רבה מאטה פומפידו אורגנית (Elaborada con Palo, Estacionamiento Natural, Origen Argentina) בשילוב דלעת מאטה טבעית מעוצבת ובמביגה מנירוסטה. הדלעת עמידה ועם פה מתכתי נוח לשימוש. הסט מגיע בקופסת מתנה אדומה מרשימה עם חלון תצוגה — מושלם למתנה עסקית, לחגים ולנקודות מכירה.',
+    weight: '500g + דלעת + במביגה',
+    image: pompidouSetGourdImg,
+    sku: 'SET-PMP-GOURD-006',
+    featured: true,
+    weights: ['500g + דלעת + במביגה'],
+  },
+
+  {
+    id: 'set-pompidou-ceramic-cup-1',
+    name: 'סט מפ��אר פומפידו — 500 גרם ג׳רבה מאטה + כוס קרמיקה לבנה + במביגה',
+    category: 'Sets',
+    description: 'סט ג׳רבה מאטה פומפידו מפואר — מכיל 500 גרם חליטת ז׳רבה מאטה פומפידו אורגנית (Elaborada con Palo, Estacionamiento Natural, Origen Argentina) בשילוב כוס מאטה קרמיקה לבנה מהודרת עם לוגו Pompidou Mate Cup ובמביגה מנירוסטה. הכוס הקרמית הלבנה בעלת מראה יוקרתי ונקי, עמידה לחום ונוחה לאחיזה. הסט מגיע בקופסת מתנה אדומה מרשימה עם ��לון תצוגה — מושלם לחגים, מתנות עסקיות ונקודות מכירה.',
+    weight: '500g + כוס קרמיקה + במביגה',
+    image: pompidouSetCeramicCupImg,
+    sku: 'SET-PMP-CER-CUP-007',
+    featured: true,
+    weights: ['500g + כוס קרמיקה + במביגה'],
+  },
+
+  {
+    id: 'set-pompidou-red-leather-cup-1',
+    name: 'סט פומפידו — 500 גרם ג׳רבה מאטה + כוס מאטה מעור אדום + במביגה',
+    category: 'Sets',
+    description: 'סט ג׳רבה מאטה פומפ��דו מהודר — מכיל 500 גרם חליטת ז׳רבה מאטה פומפידו אורגנית (Elaborada con Palo, Estacionamiento Natural, Origen Argentina) בשילוב כוס מאטה מכוסה עור באדום עם לוגו Pompidou Mate Cup ובמביגה מנירוסטה. הכוס בעלת מגע עור נוח לאחיזה, עמידה לחום ומראה אלגנטי ייחודי. הסט מגיע בקופסת מתנה אדומה מרשימה עם חלון תצוגה — מושלם לחגים, מתנות עסקיות ונקודות מכירה.',
+    weight: '500g + כוס עור אדום + במביגה',
+    image: pompidouSetRedLeatherImg,
+    sku: 'SET-PMP-RED-LTH-008',
+    featured: true,
+    weights: ['500g + כוס עור אדום + במביגה'],
+  },
+
+  {
+    id: 'set-pompidou-red-cup-1',
+    name: 'סט מפואר ��ומפידו — 500 גרם ג׳רבה מאטה + כוס מאטה אדומה + במביגה',
+    category: 'Sets',
+    description: 'סט ג׳רבה מאטה פומפידו מפואר — מכיל 500 גרם חליטת ז׳רבה מאטה פומפידו אורגנית (Orgánica, 100% Natural, Elaborada con Palo, Estacionamiento, Origen Argentina) בשילוב כוס מאטה אדומה Pompidou Mate Cup עם במביגה מנירוסטה. כוס המאטה האדומה בעלת מראה מרהיב ויוקרתי, עמידה לחום ונוחה לאחיזה. הסט מגיע בקופסת מתנה אדומה מרשימה עם חלון תצוגה — מושלם לחגים, מתנות עסקיות ונקודות מכירה.',
+    weight: '500g + כוס אדומה + במביגה',
+    image: pompidouSetRedCupImg,
+    sku: 'SET-PMP-RED-CUP-009',
+    featured: true,
+    weights: ['500g + כוס אדומה + במביגה'],
+  },
+
+  {
+    id: 'set-banias-pakal-010',
+    name: 'פק"ל הבאניאס — סט מפואר מותאם לוועדי עובדים',
+    category: 'Sets',
+    description: 'פק"ל הבאניאס הוא סט מתנה פרמיום המיועד לוועדי עובדים, מתנות ארגוניות וחגים. הסט כולל: כוס מאטה שחורה Pompidou Mate Cup, טרמוס שחור Pompidou, שני גלילי קוסידו פומפידו (טעמים שונים), חבילת ג׳רבה מאטה פומפידו אורגנית 500 גרם, קופסת ג׳רבה מאטה פומפידו קלאסיקה, במביגה מנירוסטה — הכל ארוז בקופסת מתנה ירוקה מהודרת עם לוגו Pompidou. מושלם לרכישה כמותית לוועדי עובדים ואירועי חברה.',
+    weight: 'סט מלא',
+    image: baniasPakalImg,
+    sku: 'SET-BANIAS-PAKAL-010',
+    featured: true,
+    weights: ['סט מלא'],
+  },
+
+  {
+    id: 'set-briut-mehateva-011',
+    name: 'פק"ל בריאות מהטבע — סט מפואר מותאם לוועדי עובדים',
+    category: 'Sets',
+    description: 'פק"ל בריאות מהטבע הוא סט מתנה פרמיום המיועד לוועדי עובדים, מתנות ארגוניות וחגים. הסט כולל: כוס מאטה שחורה Pompidou Mate Cup, טרמוס נירוסטה Pompidou עם פה אדום, חבילת ג׳רבה מאטה פומפידו אורגנית (Orgánica), חבילת ג׳רבה מאטה פ��מפידו קלאסיקה (Clásica), שני גלילי קוסידו פומפידו, ובמביגה — הכל ארוז בקופסת מתנה ירוק בהיר מהודרת. מושלם לרכישה כמותית לוועדי עובדים ואירועי חברה.',
+    weight: 'סט מלא',
+    image: briutMehatevaPakalImg,
+    sku: 'SET-BRIUT-MEHATEVA-011',
+    featured: true,
+    weights: ['סט מלא'],
+  },
+
+  {
+    id: 'set-tiyulim-pakal-012',
+    name: 'פק"ל ג׳רבה מאטה פומפידו לטיולים',
+    category: 'Sets',
+    description: 'פק"ל טיולים מושלם לאוהבי הטבע והרפתקנים! הסט כולל: קופסת ג׳רבה מאטה פומפידו אורגנית (Orgánica, 100% Natural), טרמוס נירוסטה Pompidou עם פקק אדום ואחיזה נוחה, כוס מאטה (גורד) עם במביגה מנירוסטה — כל הסט ארוז בסל עץ כפרי איכותי עם ידית נשיאה. מתאים לטיולים, פיקניקים, קמפינג ומתנות לאוהבי הטבע. זמין לרכישה כמותית.',
+    weight: 'סט מלא',
+    image: tiyulimPakalImg,
+    sku: 'SET-TIYULIM-PAKAL-012',
+    featured: true,
+    weights: ['סט מלא'],
+  },
+
+  {
+    id: 'dup-flav-cosido-cardamom-1',
+    name: 'ג׳רבה מאטה קוסידו עם היל — Pompidou Cardamom Organic',
+    category: 'Sets',
+    description: 'ג׳רבה מאטה קוסידו (Cocido Yerba Mate) אורגנית מבית פומפידו בשילוב היל (Cardamom) — תבלין מזרח-תיכוני עתיק בעל ארומה חמה, מתוקה ומעט חריפה. הקוסידו מאפשר חליטה קלה ללא בומביז׳ה, בדיוק כמו תה. שילוב סינרגטי של אנרגיה טבעית מהמאטה עם הניחוח הייחודי של גרגרי ההיל הטריים. ארוז בקופסה גלילית אדו��ה מהודרת עם לוגו פומפידו. 170 גרם.',
+    weight: '170g',
+    image: cosidoCardamomImg,
+    sku: 'FLV-CSD-CDM-061',
+    featured: true,
+    weights: ['170g'],
+  },
+  {
+    id: 'dup-flav-cosido-med-herbs-1',
+    name: 'ג׳רבה מאטה קוסידו עם צמ��י ים תיכון — Pompidou Mediterranean Herbs Organic',
+    category: 'Sets',
+    description: 'ג׳רבה מאטה קוסידו (Cocido Yerba Mate) אורגנית מבית פומפידו בשילוב צמחי ים תיכון נבחרים — מנטה, מרווה, לבנדר, קמומיל ועשבי תיבול אזוריים. הקוסידו מאפשר חליטה קלה ללא בומביז׳ה, בדיוק כמו תה. שילוב ייחודי של אנרגיית המאטה הדרום-אמריקאית עם הארומה הרעננה והמאוזנת של הצמחייה הים-תיכונית. ארוז בקופסה גלילית זהובה מהודרת עם מכסה אדום ולוגו פומפידו פלמינגו. 170 גרם.',
+    weight: '170g',
+    image: cosidoMedHerbsImg,
+    sku: 'FLV-CSD-MED-063',
+    featured: true,
+    weights: ['170g'],
+  },
+  {
+    id: 'dup-flav-cosido-cinnamon-1',
+    name: 'ג׳רבה מאטה קוסידו עם קינמון — Pompidou Cinnamon Organic',
+    category: 'Sets',
+    description: 'ג׳רבה מאטה קוסידו (Cocido Yerba Mate) אורגנית מבית פומפידו בשילוב קינמון (Cinnamon) — התבלין האהוב בעולם בעל ארומה חמה, מתוקה ועוטפת. הקוסידו מאפשר חליטה קלה ללא בומביז׳ה, בדיוק כמו תה. הקינמון מאזן את המרירות הטבעית של המאטה ומוסיף עומק ארומטי מפתיע וממכר. ארוז בקופסה גלילית זהובה מהודרת עם מכסה אדום ולוגו פומפידו פלמינגו. 170 גרם.',
+    weight: '170g',
+    image: cosidoCinnamonImg,
+    sku: 'FLV-CSD-CIN-062',
+    featured: true,
+    weights: ['170g'],
+  },
+  {
+    id: 'dup-flav-mediterranean-herbs-1',
+    name: 'ג׳רבה מאטה פומפידו עם צמחי ים תיכון — Mediterranean Herbs Organic',
+    category: 'Sets',
+    description: 'ג׳רבה מאטה פומפידו אורגנית 100% ממוצא ארגנטינה בשילוב צמחי ים תיכון נבחרים — מנטה, קكومיל, מרווה, לבנדר ועשבי תיבול אזוריים. שילוב ייחודי המשלב את אנרגיית המאטה הדרום-אמריקאית עם הארומה הרעננה והמאוזנת של הצמחייה הים-תיכונית. ארוז בקופסת קרטון מהודרת בצבע אדום עם פלמינגו אייקוני. 250 גרם.',
+    weight: '250g',
+    image: mediterraneanHerbsImg,
+    sku: 'FLV-MED-HERB-057',
+    featured: true,
+    weights: ['250g'],
+  },
+  {
+    id: 'dup-flav-cardamom-1',
+    name: 'ג׳רבה מאטה פומפידו עם הל — Cardamom Organic',
+    category: 'Sets',
+    description: 'ג׳רבה מאטה פומפידו אורגנית 100% (Origen Argentina) בשילוב זרעי הל (Cardamom) ריחניים — תבלין מזרח-תיכוני עתיק בעל ארומה חמה, מתוקה ומעט חריפה. ההל מוסיף עומק ארומטי ייחודי למאטה ומסייע לעיכול ולרענון הנשימה. ארוז בקופסת קרטון מהודרת בצבע אדום עם לוגו הפלמינגו האייקוני של פומפידו. 250 גרם.',
+    weight: '250g',
+    image: cardamomImg,
+    sku: 'FLV-CDM-058',
+    featured: true,
+    weights: ['250g'],
+  },
+  {
+    id: 'dup-flav-superfood-bundle-1',
+    name: 'מארז סופר פוד במבצע — Pompidou Cocido Superfood Trio',
+    category: 'Sets',
+    description: 'מארז מיוחד במחיר מבצע הכולל 3 קופסות קוסידו (Cocido Yerba Mate) אורגניות מבית פומפידו: קוסידו עם מורינגה, קוסידו עם כורכומין (CurcuMate) וקוסידו עם מאצ\'ה — שלושת ה"סופר-פודים" הפופולריים ביותר. כל קופסה 170 גרם, ארוזות יחד במגש אדום מהודר. המארז מושלם לגילוי, למתנה עסקית ולנקודות מכירה. הזמנה מינימלית לסיטונאים.',
+    weight: '3 × 170g',
+    image: superfoodBundleImg,
+    sku: 'FLV-SPF-TRIO-060',
+    featured: true,
+    weights: ['3 × 170g'],
+  },
+  {
+    id: 'dup-flav-cinnamon-1',
+    name: 'ג׳רבה מאטה פומפידו עם קינמון — Cinnamon Organic',
+    category: 'Sets',
+    description: 'ג׳רבה מאטה פומפידו אורגנית 100% (Origen Argentina) בשילוב קינמון (Cinnamon) — התבלין האהוב בעולם בעל ארומה חמה, מתוקה ועוטפת. הקינמון מעניק למאטה עומק ארומטי מפתיע, מאזן את המרירות הטבעית ומוסיף גוון טעם ייחודי. ארוז בקופסת קרטון אדומה מהודרת עם לוגו הפלמינגו האייקוני של פומפידו. 250 גרם.',
+    weight: '250g',
+    image: cinnamonImg,
+    sku: 'FLV-CIN-059',
+    featured: true,
+    weights: ['250g'],
+  },
+  {
+    id: 'dup-flav-stevia-pompidou-1',
+    name: 'ג׳רבה מאטה פומפידו עם סטיביה — Pompidou Stevia 250g',
+    category: 'Sets',
+    description: 'ג׳רבה מאטה פומפידו אורגנית 100% ממוצא ארגנטינה, בתוספת ממתיק סטיביה טבעי — ללא סוכר, ללא קלוריות, עם מתיקות עדינה ונעימה שמאזנת את המרירות הטבעית של המאטה. מוצר Selected Harvest של פומפידו, מגיע בקופסת קרטון כחולה מהודרת עם לוגו הפלמינגו האייקוני. 100% Natural — מושלם לאוהבי מאטה שמחפשים מתיקות טבעית בלא פשרות. 250 גרם.',
+    weight: '250g',
+    image: steviaPompidouImg,
+    sku: 'FLV-STV-065',
+    featured: true,
+    weights: ['250g'],
+  },
+
+  // ── Accessories — כוסות מאטה ──────────────────────────────────────────────
+  {
+    id: 'acc-cup-1',
+    name: 'כוס מאטה 270מ"ל עם בומביז׳ה',
+    category: 'Accessories',
+    description: 'כוס מאטה מעוצבת בנפח 270 מ"ל עם בומביז׳ה (קש סינון) מנירוסטה. דופן כפולה לשמירת חום, עיצוב ארגונומי נוח ומגוון צבעים. מתאימה לשתיית מאטה יומיומית בבית ובדרך.',
+    weight: '270 מ"ל',
+    image: mateCupBombillaImg,
+    sku: 'ACC-CUP-020',
+    featured: false,
+    weights: ['270 מ"ל'],
+  },
+  {
+    id: 'acc-cup-2',
+    name: 'כוס מאטה 200מ"ל בצבע שחור עם בומביז׳ה',
+    category: 'Accessories',
+    description: 'כוס מאטה פומפידו בנפח 200 מ"ל בצבע שחור מבריק עם בומביז׳ה (קש סינון) מנירוסטה. עיצוב ארגונומי קלאסי, דופן עמידה לשמירת חום. מתאימה לשתיית מאטה יומיומית.',
+    weight: '200 מ"ל',
+    image: mateCupBlackImg,
+    sku: 'ACC-CUP-021',
+    featured: false,
+    weights: ['200 מ"ל'],
+  },
+  {
+    id: 'acc-cup-3',
+    name: 'כוס מאטה מעץ בעבודת יד — מכפר איכרים באורוגואי',
+    category: 'Accessories',
+    description: 'כוס מאטה מסורתית מעץ טבעי, מעוצבת ומגולפת בעבודת יד על ידי אומנים מכפר איכרים באורוגואי. כל כוס היא יצירה ייחודית בעלת אופי וסיפור. כוללת בומביז׳ה (קש סינון) מנירוסטה.',
+    weight: 'מידה אחת',
+    image: mateCupWoodImg,
+    sku: 'ACC-CUP-022',
+    featured: true,
+    weights: ['מידה אחת'],
+  },
+  {
+    id: 'acc-cup-4',
+    name: 'כוס מאטה פומפידו 270מ"ל עם בומביז׳ה',
+    category: 'Accessories',
+    description: 'כוס מאטה פומפידו בנפח 270 מ"ל עם בומביז׳ה (קש סינון) מנירוסטה. גוף כוס בצורה ארגונומית מסורתית מפלדת אל-חלד עם ציפוי מט בחמישה צבעים. לוגו Pompidou Mate Cup חרוט על גוף הכוס. שמירת חום מעולה.',
+    weight: '270 מ"ל',
+    image: pompidouMateCupImg,
+    sku: 'ACC-CUP-023',
+    featured: true,
+    weights: ['270 מ"ל'],
+    imageScale: 1.35,
+  },
+  {
+    id: 'acc-clay-1',
+    name: 'כד מחימר טבעי — עבודה ידית כפרית',
+    category: 'Accessories',
+    description: 'כד מאטה מחימר טבעי, עשוי בעבודת יד מסורתית בסגנון כפרי דרום אמריקאי. גוף הכד מעוצב בצורה אורגנית ייחודית עם דוגמאות מסחררות בגוונים חמים של חימר טבעי ואדמה. החימר הטבעי שומר על טמפרטורת המאטה ומקנה לו ארומה וטעם עמוקים יותר עם הזמן. כל כד הוא פריט ייחודי ובלתי חוזר.',
+    weight: 'מידה אחת',
+    image: clayVesselImg,
+    sku: 'ACC-CLAY-024',
+    featured: true,
+    weights: ['מידה אחת'],
+  },
+  {
+    id: 'acc-luxury-1',
+    name: 'כוס מאטה מפוארת פומפידו — שיש ועץ, 270מ"ל עם בומביז׳ה',
+    category: 'Accessories',
+    description: 'כוס מאטה פומפידו מפוארת בנפח 270 מ"ל, זמינה בשני גימורים יוקרתיים: שיש לבן-אפור עם ורידים עדינים ועץ אגוז חום עשיר. גוף הכוס בצורת טיפה ארגונומית מסורתית עם לוגו Pompidou Mate Cup חרוט. כוללת בומביז׳ה (קש סינון) מנירוסטה. מוצר פרמיום המשלב אסתטיקה יוקרתית עם שתייה אותנטית — מושלם כמתנה עסקית ולנקודות מכירה גורמת.',
+    weight: '270 מ"ל',
+    image: pompidouLuxuryCupImg,
+    sku: 'ACC-LUX-025',
+    featured: true,
+    weights: ['270 מ"ל'],
+    imageScale: 1.35,
+  },
+  {
+    id: 'acc-cup-5',
+    name: 'כוס מאטה 230מ"ל עם בומביז׳ה — צבעוניים',
+    category: 'Accessories',
+    description: 'כוס מאטה מפלדת אל-חלד בנפח 230 מ"ל, זמינה בארבעה צבעים בצבע מט: אדום קורל, זהב חרדל, ורוד וטורקיז. צורת הכוס המסורתית בקעבוע רחב וגוף ארגונומי, גימור מט עם פייה פנימי מנירוסטה מבריק. דופן כפול לשמירת חום וקרח. כוללת בומביז׳ה (קש סינון) מנירוסטה. מתאימה לשתייה יומיומית ולמתנה.',
+    weight: '230 מ"ל',
+    image: colorCupsImg,
+    sku: 'ACC-CUP-026',
+    featured: true,
+    weights: ['230 מ"ל'],
+    imageScale: 1.35,
+  },
+  {
+    id: 'acc-cup-6',
+    name: 'כוס מאטה 180מ"ל עם מכסה ובומביז׳ה',
+    category: 'Accessories',
+    description: 'כוס מאטה נירוסטה בנפח 180 מ"ל עם מכסה הרמטי ובומביז׳ה (קש סינון) מנירוסטה. זמינה במגוון גוונים עשירים: ורוד, נחושת, כחול נצנץ, סגול, כחול נייבי, אדום, זהב ותכלת. עיצוב מודרני ואסתטי, דופן כפול לשמירת חום וקרח. מתאימה לשתייה יומיומית ולנסיעות.',
+    weight: '180 מ"ל',
+    image: mateCup180LidImg,
+    sku: 'ACC-CUP-027',
+    featured: true,
+    weights: ['180 מ"ל'],
+    imageScale: 1.35,
+  },
+  {
+    id: 'acc-jug-1',
+    name: 'כד ג׳רבה מאטה פומפידו בצורת הלוגו',
+    category: 'Accessories',
+    description: '��ד מאטה פומפידו קרמי ייחודי בצורת הלוגו המאפיין ��ל המותג — ראש פלמינגו מעוצב בצבע אדום וצהוב משמש כידית. גוף הכד מזוגג בצבע ירוק עדין בגימור ידני אומנותי. כולל בומביז׳ה (קש סינון) מנירוסטה. זמין ב-2 צבעים: לבן (אוף-וויט) וירוק. פריט קולקט למתנה ולשתייה אותנטית.',
+    weight: 'מידה אחת',
+    image: pompidouLogoJugImg,
+    sku: 'ACC-CUP-028',
+    featured: true,
+    weights: ['מידה אחת'],
+    imageScale: 1.35,
+  },
+  {
+    id: 'acc-cup-7',
+    name: 'כוס מאטה פומפידו עם בומביז׳ה ומכסה',
+    category: 'Accessories',
+    description: 'כוס מאטה פומפידו מנירוסטה בצורה ארגונומית מסורתית, עם מכסה ובומביז׳ה (קש סינון) מנירוסטה. זמין בנפחים 270 או 230 מ"ל, במגוון צבעים: ירוק, כחול, ורוד, בורדו ואדום. ציפוי מט עם לוגו Pompidou Mate Cup חרוט. דופן כפול לשמירת חום מעולה.',
+    weight: '270 מ"ל',
+    image: mateCupLedImg,
+    sku: 'ACC-CUP-029',
+    featured: true,
+    weights: ['270 מ"ל', '230 מ"ל'],
+    imageScale: 1.35,
+  },
+  {
+    id: 'acc-nickel-cup-1',
+    name: 'כוס מאטה מניקל דו שכבתי 120מ"ל עם בומביז׳ה',
+    category: 'Accessories',
+    description: 'כוס מאטה מניקל דו-שכבתי בנפח 120מ"ל, מעוצב בשחור מט עם לוגו פומפידו מייט קאפ. דפנות הכוס הכפולות שומרות על חום השתייה לאורך זמן ועל העלים בפנים. כולל בומביז׳ה (קש סינון) מנירוסטה. עמיד בפני חilda, קל לניקוי ומתאים לשתייה אותנטית בכל מקום.',
+    weight: 'מידה אחת',
+    image: nickelDoubleCupImg,
+    sku: 'ACC-CUP-031',
+    featured: false,
+    weights: ['מידה אחת'],
+  },
+  {
+    id: 'acc-cup-alum-1',
+    name: 'מאטה 270מ"ל עם בומביז׳ה מאלומיניום',
+    category: 'Accessories',
+    description: 'כוס מאטה פומפידו בנפח 270 מ"ל עשוי אלומיניום שחור מבריק, כולל בומביז׳ה (קש סינון) מנירוסטה. שומר חום לאורך זמן וקל לניקוי. לוגו Pompidou Mate Cup חרוט על גוף הכוס.',
+    weight: '270 מ"ל',
+    image: pompidouBlackAlumCupImg,
+    sku: 'ACC-CUP-032',
+    featured: true,
+    weights: ['270 מ"ל'],
+  },
+  {
+    id: 'acc-horn-cup-1',
+    name: 'כוס מאטה מקרן שור עם בומביז׳ה — Pompidou Mate Cup',
+    category: 'Accessories',
+    description: 'כוס מאטה ייחודית עשויה מקרן שור טבעי מלוטש ומעוצב בעבודת יד, עם לוגו Pompidou Mate Cup חרוט על הגוף. כל כוס היא פריט ייחודי בעלת גוונים ודוגמאות טבעיות בלתי חוזרות. קרן השור שומר על טמפרטורת המאטה ומקנה לו ארומה וטעם עמוקים יותר עם הזמן. כוללת בומביז׳ה (קש סינון) מנירוסטה.',
+    weight: 'מידה אחת',
+    image: hornMateCupImg,
+    sku: 'ACC-HORN-035',
+    featured: true,
+    weights: ['מידה אחת'],
+  },
+  {
+    id: 'acc-mate-cup-210-mixed',
+    name: 'כוס מאטה 210מ"ל בעיצוב משולב עם בומביז׳ה ומברשת',
+    category: 'Accessories',
+    description: 'כוס מאטה 210 מ"ל בעיצוב משולב ייחודי — גוף מפלסטיק בצבעים שונים עם בסיס עץ טבעי מעוצב ולוגו חרוט. הסט כולל בומביז׳ה מנירוסטה איכותית ומברשת ניקוי. זמינה בצבעים: ירוק, אדום כהה, צהוב ושחור.',
+    weight: '210 מ"ל',
+    image: mateCup210MixedImg,
+    sku: 'ACC-CUP-037',
+    featured: true,
+    weights: ['210 מ"ל'],
+    imageScale: 1.35,
+  },
+  {
+    id: 'acc-leather-cup-1',
+    name: 'כוס מאטה מעור 180מ"ל עם בומביז׳ה',
+    category: 'Accessories',
+    description: 'כוס מאטה מעוצבת בציפוי מעור בנפח 180 מ"ל. גוף הכוס בעיצוב טקסטורת קרוקודיל עם טבעת קישוט מוזהבת/מוכספת מפוארת. זמינה בארבעה צבעים: ירוק, כתום-חרסינה, אפור ושחור. כוללת בומביז׳ה (קש סינון) מנירוסטה. מתאימה לשתייה יומיומית ולמתנה.',
+    weight: '180 מ"ל',
+    image: leatherMateCupImg,
+    sku: 'ACC-CUP-038',
+    featured: true,
+    weights: ['180 מ"ל'],
+  },
+  {
+    id: 'acc-luxury-wood-cup-1',
+    name: 'כוס מאטה מפוארת בעבודת יד עם בומביז׳ה מבמבוק',
+    category: 'Accessories',
+    description: 'כוס מאטה מפוארת מעוצבת בעבודת יד מעץ טבעי עם קליפת עץ מקורית ובסיס מוחלק. הידית הייחודית בצורת טבעת עץ מעניקה אחיזה נוחה ואסתטית. כל כוס היא יצירה בלתי חוזרת בעלת אופי ייחודי. מגיעה עם בומביז׳ה (קש סינון) אורגנית עשויה במבוק.',
+    weight: 'מידה אחת',
+    image: luxuryWoodCupImg,
+    sku: 'ACC-CUP-039',
+    featured: true,
+    weights: ['מידה אחת'],
+  },
+  {
+    id: 'acc-gourd-cup-1',
+    name: 'כוס מאטה מדלעת עם בומביז׳ה מעץ הזית',
+    category: 'Accessories',
+    description: 'כוס מאטה מסורתית עשויה מדלעת טבעית מעובדת עם גימור מתכתי מבריק בפתח. הכוס נושאת את לוגו Pompidou Mate Cup הייחודי. מגיעה עם בומביז׳ה (קש סינון) מגולפת בעבודת יד מעץ זית ישראלי — כל אחת ייחודית בטקסטורה ובגוון שלה. שילוב מושלם של מסורת ואסתטיקה.',
+    weight: 'מידה אחת',
+    image: gourdMateCupImg,
+    sku: 'ACC-CUP-040',
+    featured: true,
+    weights: ['מידה אחת'],
+    imageScale: 1.35,
+  },
+  {
+    id: 'acc-natural-gourd-nickel-1',
+    name: 'כוס מאטה מדלעת טבעית עם בומביז׳ה מפוארת מניקל',
+    category: 'Accessories',
+    description: 'כוס מאטה מסורתית עשויה מדלעת טבעית שלמה עם גימור מתכתי מבריק בפתח ולוגו Pompidou חרוט בזהב. מגיעה עם בומביז׳ה (קש סינון) מפוארת מנירוסטה באיכות גבוהה עם ידית מעוצבת. כל כוס ייחודית בצורתה ובמרקמה הטבעי — חוויית שתייה אותנטית במיטבה.',
+    weight: 'מידה אחת',
+    image: naturalGourdNickelImg,
+    sku: 'ACC-CUP-041',
+    featured: true,
+    weights: ['מידה אחת'],
+  },
+  {
+    id: 'acc-black-snake-cup-1',
+    name: 'כוס מאטה 270מ"ל שחור נחש עם בומביז׳ה — Pompidou Mate Cup',
+    category: 'Accessories',
+    description: 'כוס מאטה Pompidou Mate Cup בנפח 270 מ"ל מנירוסטה עם ציפוי טקסטורת "נחש" שחורה מט ייחודית ומרשימה. גוף הכוס בצורה ארגונומית נוחה לאחיזה עם לוגו Pompidou Mate Cup מוטבע בכסף. כוללת בומביז׳ה מנירוסטה מבריקה. שילוב מושלם של עיצוב יוקרתי ושימושיות לשתיית ג׳רבה מאטה יומיומית.',
+    weight: '270 מ"ל',
+    image: blackSnakeCupImg,
+    sku: 'ACC-CUP-052',
+    featured: false,
+    weights: ['270 מ"ל'],
+  },
+
+  // ── Thermoses ────────��────────────────────────────────────────────────────
+  {
+    id: 'acc-thermos-1',
+    name: 'תירמוס 1 ליטר עם פייה — שחור',
+    category: 'Accessories',
+    description: 'תירמוס Pompidou Termo Mate מנירוסטה בנפח 1 ליטר בצבע שחור מט עם פייה מובנית. שומר חום לאורך זמן ומעוצב לשתיית ג׳רבה מאטה יומיומית ולנסיעות. לוגו Pompidou Termo Mate חרוט על הגוף.',
+    weight: '1 ליטר',
+    image: thermos1LBlackImg,
+    sku: 'ACC-THERM-033',
+    featured: true,
+    weights: ['1 ליטר'],
+  },
+  {
+    id: 'acc-thermos-2',
+    name: 'תירמוס 1 ליטר מני��ל עם פייה — שומר חום',
+    category: 'Accessories',
+    description: 'תירמוס Termolar R-Evolution מנירוסטה בנפח 1 ליטר בצבע ניקל מבריק עם פייה מובנית לשתיית ג׳רבה מאטה. כולל שני פקקים נשלפים: פקק עם פייה לשתייה ופקק אטום. שומר חום לאורך זמן, ידית אחיזה נוחה ועיצוב ארגונומי לשתייה יומיומית ולנסיעות.',
+    weight: '1 ליטר',
+    image: thermos1LNickelImg,
+    sku: 'ACC-THERM-034',
+    featured: true,
+    weights: ['1 ליטר'],
+  },
+  {
+    id: 'acc-gambo-thermos-1',
+    name: 'תירמוס גמבו ואקוום 1.2 ליטר עם בומביז׳ה — Pompidou Termo Mate',
+    category: 'Accessories',
+    description: 'תירמוס ואקוום מנירוסטה בנפח 1.2 ליטר מברנד Pompidou Termo Mate. מוצר בטכנולוגיית ואקוום כפולה השומרת חום לאורך זמן. ידית אחיזה נוחה עם קליפ מעשי ופייה מובנית לשתייה. בא בצירוף בומביז׳ה מנירוסטה לשתיית ג׳רבה מאטה. זמין בצבעים: אדום, שחור ולבן.',
+    weight: '1.2 ליטר',
+    image: gamboThermos12LImg,
+    sku: 'ACC-GAMBO-036',
+    featured: true,
+    weights: ['1.2 ליטר'],
+  },
+  {
+    id: 'acc-aluminum-thermos-500-1',
+    name: 'תירמוס מטה 500מ"ל מאלומניום',
+    category: 'Accessories',
+    description: 'תירמוס מאטה קומפקטי בנפח 500 מ"ל מאלומניום מבריק בסגנון Pompidou Mate Cup. גוף אלומניום כסוף עם מכסה עליון מפלסטיק שחור מבריק ופייה מובנית נוחה לשתייה ישירה. עיצוב ארגונומי ורזה המתאים לנסיעות ולשימוש יומיומי. קל משקל, עמיד ונוח לאחיזה — הפתרון המושלם לשתיית ג׳רבה מאטה בדרכים.',
+    weight: '500 מ"ל',
+    image: aluminumThermos500Img,
+    sku: 'ACC-THERM-050',
+    featured: false,
+    weights: ['500 מ"ל'],
+  },
+
+  // ── Accessories — בומביז׳ות ────────────────────────────────────────────────
+  {
+    id: 'acc-special-round-bombilla-1',
+    name: 'בומביז׳ה מיוחדת עם סינון עגול',
+    category: 'Accessories',
+    description: 'בומביז׳ה (קש סינון) מיוחדת מנירוסטה מבריקה עם ראש סינון עגול-חרוטי מברונזה מוזהבת — עיצוב ייחודי המבטיח סינון מלא ומיטבי ללא חסימות. גוף הבומביז׳ה מכופף בזווית ארגונומית נוחה לשתייה טבעית ונוחה מכוס המאטה. ראש הסינון בעל חריטות סלילות צפופות המעניקות זרימת שתייה חלקה ומאוזנת. שילוב מושלם של אסתטיקה, הנדסה ושימושיות — מתאימה לכל סוגי כוסות מאטה.',
+    weight: 'מידה אחת',
+    image: specialRoundBombillaImg,
+    sku: 'ACC-BMB-SPL-064',
+    featured: true,
+    weights: ['מידה אחת'],
+  },
+  {
+    id: 'acc-bombilla-1',
+    name: 'בומביז׳ה לג׳רבה מאטה',
+    category: 'Accessories',
+    description: 'בומביז׳ה (קש סינון) מנירוסטה באיכות גבוהה לשתיית ג׳רבה מאטה. ראש סינון רחב בצורת כף המבטיח סינון מיטבי וזרימת שתייה חלקה. זמינה ב-7 צבעים: שחור, זהב, כחול, סילבר, בורדו, זהב-ברונזה ונחושת ורדה. קלה לניקוי, עמידה לאורך זמן ומתאימה לכל סוגי כוסות מאטה.',
+    weight: 'מידה אחת',
+    image: bombillaImg,
+    sku: 'ACC-BMB-030',
+    featured: false,
+    weights: ['מידה אחת'],
+  },
+  {
+    id: 'acc-bamboo-bombilla-1',
+    name: 'בומביז׳ה מבמבוק טבעי',
+    category: 'Accessories',
+    description: 'בומביז׳ה (קש סינון) מסורתית עשויה מבמבוק טבעי מלא עם עיצוב ייחודי חרוט ביד — ספירלות ולוגו Pompidou. חורי הסינון הטבעיים בקצה מאפשרים זרימת מאטה אופטימלית ומונעים מעבר עלים. ידידותית לסביבה ובת-קיימא, מתאימה לכל כוס מאטה.',
+    weight: 'מידה אחת',
+    image: bambooBombillaImg,
+    sku: 'ACC-BOM-043',
+    featured: false,
+    weights: ['מידה אחת'],
+  },
+  {
+    id: 'acc-olivewood-bombilla-1',
+    name: 'בומביז׳ה מעץ הזית',
+    category: 'Accessories',
+    description: 'בומביז׳ה (קש סינון) מפוארת מעץ זית ישראלי אותנטי, מגולפת ביד בצורה ארגונומית עם ראש סינון כדורי מחורר ואחיזה מעוגלת נוחה. גוון העץ חם ועשיר עם ורידים טבעיים ייחודיים — כל פיסה יצירה בפני עצמה. בת-קיימא, אסתטית ותפקודית, מתאימה לכל כוס מאטה.',
+    weight: 'מידה אחת',
+    image: olivewoodBombillaImg,
+    sku: 'ACC-BOM-045',
+    featured: false,
+    weights: ['מידה אחת'],
+  },
+  {
+    id: 'acc-colored-bombilla-21-1',
+    name: 'בומביז׳ה 21ס"מ בצבעים',
+    category: 'Accessories',
+    description: 'בומביז׳ה (קש סינון) מנירוסטה באורך 21 ס"מ עם גוף מפותל מעוצב וראש כף-סינון מחורר. זמינה במגוון צבעים מרהיבים: קשת, סגול, ברונזה, זהב, אפור, גרפיט וכחול. ציפוי צבע עמיד באיכות גבוהה, קלה לניקוי ומתאימה לשימוש חוזר. מתנה מושלמת לאוהבי מאטה.',
+    weight: 'מידה אחת',
+    image: coloredBombillaImg,
+    sku: 'ACC-BOM-046',
+    featured: false,
+    weights: ['מידה אחת'],
+  },
+  {
+    id: 'acc-classic-bombilla-1',
+    name: 'בומביז׳ה קלאסית',
+    category: 'Accessories',
+    description: 'בומביז׳ה (קש סינון) קלאסית מנירוסטה מבריקה עם ראש כדורי שטוח ומחורר, גוף ישר מלוטש עם עיטורי חריטה דקראטיביים מרהיבים ופיה שתייה נוחה. עיצוב נצחי ואלגנטי שמתאים לכל כוס מאטה. קלה לניקוי, עמידה לאורך זמן — הבחירה הקלאסית של שותי המאטה הוותיקים.',
+    weight: 'מידה אחת',
+    image: classicBombillaImg,
+    sku: 'ACC-BOM-047',
+    featured: false,
+    weights: ['מידה אחת'],
+  },
+  {
+    id: 'acc-beaded-bombilla-22-1',
+    name: 'בומביז׳ה מפוארת עם חרוזית 22ס"מ',
+    category: 'Accessories',
+    description: 'בומביז׳ה (קש סינון) מפוארת מנירוסטה מבריקה באורך 22 ס"מ עם חרוזית קרמית צבעונית במרכז הגוף — כל אחת עם צבע ייחודי משלה. ראש סינון כדורי גדול ומחורר, גוף ישר אלגנטי עם עיטורי כסף מעדנים. זמינה במגוון צבעי חרוזים: ירוק, ורוד, סגול, שחור, אדום, חום, טורקיז, כחול, צהוב ולבן. מתנה מושלמת ומוצר פרימיום לכל שותה מאטה.',
+    weight: 'מידה אחת',
+    image: beadedBombillaImg,
+    sku: 'ACC-BOM-048',
+    featured: false,
+    weights: ['מידה אחת'],
+  },
+  {
+    id: 'acc-beaded-bombilla-15-1',
+    name: 'בומביז׳ה מפוארת עם חרוזית צבעונית 15ס"מ',
+    category: 'Accessories',
+    description: 'בומביז׳ה (קש סינון) קומפקטית מנירוסטה מבריקה באורך 15 ס"מ עם ראש כף-סינון רחב ומחורר ייחודי. חרוזית קרמית צבעונית מוטמעת בגוף עם עיטורי כסף מקיפים משני צדדיה. זמינה ב-7 צבעים: כחול נייבי, שחור, סגול, פוקסיה, לבן, טורקיז ואדום. אידיאלית לנסיעות ולמי שמעדיף בומביז׳ה קצרה ונוחה.',
+    weight: 'מידה אחת',
+    image: beadedBombilla15Img,
+    sku: 'ACC-BOM-049',
+    featured: false,
+    weights: ['מידה אחת'],
+  },
+
+  // ── Accessories — אביזרים נוספים ──────────────────────────────────────────
+  {
+    id: 'acc-wooden-mate-box-1',
+    name: 'קופסת מאטה מעץ בעבודת ��ד',
+    category: 'Accessories',
+    description: 'קופסת אחסון מאטה מעוצבת בעבודת יד מעץ טבעי עם קליפה מקורית שמורה. הכיסוי המגולף עם ידית כדורית ייחודית נסגר בצמוד לשמירה על טריות המאטה. מגיעה עם כף עץ מגולפת. כל קופסה יצירה בלתי חוזרת — שילוב של פונקציונליות ואמנות.',
+    weight: 'מידה אחת',
+    image: woodenMateBoxImg,
+    sku: 'ACC-BOX-042',
+    featured: true,
+    weights: ['מידה אחת'],
+  },
+  {
+    id: 'acc-mate-trail-crate-1',
+    name: 'ארגז ג׳רבה מאטה לטיולים',
+    category: 'Accessories',
+    description: 'ארגז נשיאה מעץ מלא בעבודת יד, מיוחד לטיולים ופיקניקים עם ג׳רבה מאטה. מבנה סריג פתוח עם ידית קשת נוחה לנשיאה — מאפשר אחסון כוס, תרמוס ובומביז׳ה יחד. בטנת בד פרחונית עדינה בתחתית. שילוב מושלם של נוחות, סגנון ורוח הרפתקאות.',
+    weight: 'מידה אחת',
+    image: mateTrailCrateImg,
+    sku: 'ACC-CRT-044',
+    featured: false,
+    weights: ['מידה אחת'],
+  },
+  {
+    id: 'set-superfood-bundle-1',
+    name: 'מארז סופר פוד במבצע — Pompidou Cocido Superfood Trio',
+    category: 'Sets',
+    description: 'מארז מיוחד במחיר מבצע כולל 3 קופסות קוסידו (Cocido Yerba Mate) אורגניות מבית פומפידו: קוסידו עם מורינגה, קוסידו עם כורכומין (CurcuMate) וקוסידו עם מאצ\'ה — שלושת ה"סופר-פודים" הפופולריים ביותר. כל קופסה 170 גרם, ארוזות יחד במגש אדום מהודר. המארז מושלם לגילוי, למתנה עסקית ולנקודות מכירה. הזמנה מינימלית לסיטונאים.',
+    weight: '3 × 170g',
+    image: superfoodBundleImg,
+    sku: 'SET-SPF-TRIO-060',
+    featured: true,
+    weights: ['3 × 170g'],
+  },
+  {
+    id: 'acc-herb-extraction-stand-1',
+    name: 'סטנד למיצוי צמחים',
+    category: 'Accessories',
+    description: 'סטנד מיצוי צמחים אלגנטי בעיצוב שחור מט עם קערית זכוכית בורוסיליקט עמידה בחום. מנגנון המיצוי האוטומטי מאפשר העברה נוחה של תמצית הצמחים ישירות לכוס שמתחת — ללא צורך בהגבהה ידנית. מתאים לתה, צמחי מרפא, ג׳רבה מאטה ועשבי בושם. עיצוב מינימליסטי יוקרתי המשלב פונקציונליות עם אסתטיקה לשולחן כל בית.',
+    weight: 'מידה אחת',
+    image: herbExtractionStandImg,
+    sku: 'ACC-STAND-051',
+    featured: false,
+    weights: ['מידה אחת'],
+  },
+  {
+    id: 'acc-tin-box-500-1',
+    name: 'ג׳רבה מאטה פומפידו קופסת פח עם משפך — 500g',
+    category: 'Accessories',
+    description: 'ג׳רבה מאטה פומפידו קלאסית ארוזה בקופסת פח אדומה מהודרת עם משפך נוח — אריזת פרמיום שומרת על טריות העלים ומשמרת את הארומה לאורך זמן. כמות מושלמת לשימוש יומיומי.',
+    weight: '500g',
+    image: pompidouTinBoxImg,
+    sku: 'ACC-TIN-BOX-500-067',
+    featured: true,
+    weights: ['500g'],
+  },
+  {
+    id: 'acc-flamingo-500-1',
+    name: 'ג׳רבה מאטה פומפידו פלמינגו — 500g',
+    category: 'Accessories',
+    description: 'ג׳רבה מאטה פומפידו פלמינגו — גרסה ייחודית ומיוחדת של פומפידו, ארוזה באריזת פלמינגו בעיצוב משוך ובולט. תמהיל על��ם ראשוניים בטחינה עדינה, עם ארומה פרחונית-עשבונית מאוזנת וטעם חלק וממושך.',
+    weight: '500g',
+    image: pompidouFlamingoImg,
+    sku: 'ACC-FLM-500-066',
+    featured: true,
+    weights: ['500g'],
+  },
+  {
+    id: 'acc-round-tin-box-350-1',
+    name: 'קופסת פח עגולה עם משפך עליון — Pompidou',
+    category: 'Accessories',
+    description: 'קופסת פח עגולה שחורה מהודרת מבית Pompidou Yerba Mate עם מכסה-משפך חצי-עגול ייחודי בצבע אפור. מיועדת לאחסון ג׳רבה מאטה בקלות ובנוחות — המשפך מאפשר מילוי מדויק ונקי ללא שפיכה. גוף ממתכת עמידה עם לוגו Pompidou חרוט, טבעת זהב מעוצבת מפרידה בין הגוף למכסה. קיבולת 350 גרם — מתאימה לשימוש יומיומי ולמדף החנות.',
+    weight: '350g',
+    image: roundTinBoxImg,
+    sku: 'ACC-TIN-350-065',
+    featured: true,
+    weights: ['350g'],
+  },
+
+  // ── Soaps — סבונים ────────────────────────────────────────────────────────
+  {
+    id: 'soap-mud-mate-1',
+    name: 'סבון מוצק בוץ ז׳רבה מאטה',
+    category: 'Soaps',
+    description: 'סבון מוצק טבעי מבית Herbalook BE WELL — נוסחה ייחודית המשלבת בוץ מינרלי טהור עם תמצית ג׳רבה מאטה. הבוץ מטהר ומנקה לעומק את הנקבוביות, בעוד ג׳רבה המאטה מספקת נוגדי חמצון עוצמתיים המגינים על העור ומחדשים אותו. מתאים לכל סוגי העור. ניחוח עשבוני טבעי ומרענן.',
+    weight: '',
+    image: soapMudMateImg,
+    sku: 'SOAP-MUD-MATE-001',
+    featured: true,
+    weights: [],
+  },
+
+  {
+    id: 'soap-lavender-1',
+    name: 'סבון מוצק לבנדר',
+    category: 'Soaps',
+    description: 'סבון מוצק טבעי מבית Herbalook BE WELL — מועשר בתמצית לבנדר טהורה המרגיעה, מזינה ומשחזרת את העור. ריח לבנדר עדין ומפנק, מתאים לכל סוגי העור. מנקה לעומק תוך שמירה על לחות טבעית.',
+    weight: '',
+    image: soapLavenderImg,
+    sku: 'SOAP-LAVENDER-001',
+    featured: true,
+    weights: [],
+  },
+
+  {
+    id: 'soap-turmeric-1',
+    name: 'סבון מוצק כורכום',
+    category: 'Soaps',
+    description: 'סבון מוצק טבעי מבית Herbalook BE WELL — מועשר בכורכום טהור, הידוע בסגולותיו האנטי-דלקתיות ובנוגדי החמצון העוצמתיים שלו. מאיר ומאחד את גוון העור, מטהר לעומק ומעניק לחות טבעית. מתאים לכל סוגי העור.',
+    weight: '',
+    image: soapTurmericImg,
+    sku: 'SOAP-TURMERIC-001',
+    featured: true,
+    weights: [],
+  },
+
+  {
+    id: 'soap-pomegranate-1',
+    name: 'סבון מוצק רימונים',
+    category: 'Soaps',
+    description: 'סבון מוצק טבעי מבית Herbalook BE WELL — מועשר בתמצית רימונים עשירה בנוגדי חמצון. הרימון הידוע כ"מלך הפירות" מחדש את תאי העור, מאיר את הגוון ומגן מפני נזקי חמצון. מעניק תחושת רכות ולחות לאורך זמן.',
+    weight: '',
+    image: soapPomegranateImg,
+    sku: 'SOAP-POMEGRANATE-001',
+    featured: true,
+    weights: [],
+  },
+
+  {
+    id: 'soap-lemongrass-1',
+    name: 'סבון מוצק לימון גראס',
+    category: 'Soaps',
+    description: 'סבון מוצק טבעי מבית Herbalook BE WELL — מועשר בתמצית לימון גראס טהורה, הידועה בסגולותיה המטהרות, המרעננות והאנטי-בקטריאליות. ניחוח הדרי-עשבוני מרענן ומעורר, מנקה לעומק ומשאיר תחושת טריות לאורך זמן. מתאים לכל סוגי העור.',
+    weight: '',
+    image: soapLemongrassImg,
+    sku: 'SOAP-LEMONGRASS-001',
+    featured: true,
+    weights: [],
+  },
+
+  {
+    id: 'shampoo-bar-mild-1',
+    name: 'סבון שמפו מוצק בריח עדין',
+    category: 'Soaps',
+    description: 'שמפו מוצק טבעי מבית Herbalook BE WELL — פורמולה עדינה ומאוזנת המנקה את הקרקפת והשיער לעומק מבלי לפגוע בשכבת ההגנה הטבעית. ריח עדין ומפנק, מתאים לשיער רגיש ולשימוש יומיומי. ידידותי לסביבה — מחליף בקבוקי שמפו חד-פעמיים.',
+    weight: '',
+    image: shampooBarMildImg,
+    sku: 'SHAMPOO-BAR-MILD-001',
+    featured: true,
+    weights: [],
+  },
+];

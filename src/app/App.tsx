@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { motion, AnimatePresence, useReducedMotion, useScroll, useTransform } from 'motion/react';
 import { HelmetProvider } from 'react-helmet-async';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { products } from './data/products';
 import type { ProductCategory } from './data/products';
 import { ProductCard } from './components/ProductCard';
@@ -611,7 +612,7 @@ export default function App() {
         </div>
       </AnimatedSection>
 
-      {/* ── CONTACT ────────────────────────────────────────────────────────── */}
+      {/* ── CONTACT ─────────────────────────────────────────────────��──────── */}
       <AnimatedSection id="contact" className="py-24" style={{ backgroundColor: '#F8F3EB' }}>
         <div className="max-w-6xl mx-auto px-5 sm:px-8 lg:px-10">
           <div className="text-center mb-14">
@@ -905,6 +906,7 @@ export default function App() {
           </motion.div>
         )}
       </AnimatePresence>
+      <SpeedInsights />
     </div>
     </HelmetProvider>
   );

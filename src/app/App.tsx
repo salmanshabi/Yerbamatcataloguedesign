@@ -16,7 +16,7 @@ import {
 const logo = '/images/13dc8d557d8360ccddfce8eb7118c03ba57a9655.png';
 
 // ── Polyfill ──────────────────────────────────────────────────────────────────
-if (typeof Node !== 'undefined' && !Node.prototype.closest) {
+if (typeof Node !== 'undefined' && !(Node.prototype as any).closest) {
   (Node.prototype as any).closest = function (selector: string) {
     let el: Node | null = this;
     while (el && el.nodeType !== 1) el = el.parentNode;

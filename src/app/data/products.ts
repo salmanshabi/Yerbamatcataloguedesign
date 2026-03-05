@@ -85,6 +85,7 @@ import soapTurmericImg from '/images/699bac098efe5c12e650eb442fbcab4ec95c5ef7.pn
 import soapPomegranateImg from '/images/39e278246dec2c924e4af8afd046778a7a6a8a9f.png';
 import soapLemongrassImg from '/images/e4571342d02194a41d137f1bb4dd5f9c440356ee.png';
 import shampooBarMildImg from '/images/15eed4f486a78046b34f77585ac873b3831bf31a.png';
+import coliseoImg from '/images/coliseo.png';
 
 export type ProductCategory = 'YerbaMate' | 'Sets' | 'Accessories' | 'Soaps';
 
@@ -1230,5 +1231,16 @@ export const products: Product[] = [
     sku: 'SHAMPOO-BAR-MILD-001',
     featured: true,
     weights: [],
+  },
+  {
+    id: 'ym-coliseo-500g',
+    name: 'ג׳רבה מאטה קוליסאו',
+    category: 'YerbaMate',
+    description: 'קוליסאו (Coliseo) — ג׳רבה מאטה ארגנטינאית מסורתית בעלת ארומה עשבונית רעננה ומרעננת. מיוצרת מעלי מאטה נבחרים עם גבעולים, המעניקים לה טעם מאוזן ומלא עם נגיעות עדינות של עשב ואדמה. מתאימה לשתייה לאורך כל היום, ומספקת תחושת חיוניות ואנרגיה בכל חליטה. 500 גרם.',
+    weight: '500g',
+    image: coliseoImg,
+    sku: 'YM-COL-001-500g',
+    featured: false,
+    weights: ['500g'],
   },
 ];

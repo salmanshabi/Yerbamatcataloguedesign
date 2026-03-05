@@ -1,90 +1,90 @@
-import pompidouClassitImg2 from '/images/0adda0da01b53ca0dc84931fc905fd847b152f51.png';
-import pompidouTinBoxImg from '/images/9d9d95370199ba9fe4d865ff27a1c21edc97541b.png';
+import pompidouClassitImg2    from '/images/0adda0da01b53ca0dc84931fc905fd847b152f51.png';
+import pompidouTinBoxImg      from '/images/9d9d95370199ba9fe4d865ff27a1c21edc97541b.png';
 import pompidouClassit500gImg from '/images/d7bc7db191d9cbe58ad14750fd9630825cee679a.png';
-import pompidouOrganit250gImg from '/images/f3488f03ae7baebdb8ce800b6d1d3c29c1e3f4cb.png';
-import pompidouOrganitImg from '/images/62ccd587b94216ed13d215e27fae34a775a3508e.png';
-import pompidouOrganit1kgImg from '/images/a331df80a5eaf5531fb8bb41d5462529c594c655.png';
-import pompidouFlamingoImg from '/images/908d86ec11ea4271b6f70e72d71be9f37b3846cc.png';
-import padjaritoImg from '/images/de4e8a500c3fbfeee23db94ae2b30e031987a93c.png';
-import padjaritoSpecialImg from '/images/ad4344730919d7b05b2fc8e117fc21b5869a51f5.png';
-import noblezaGauchaImg from '/images/8175c31a6edd6ad542ddfaae2cd80083b2e16d6f.png';
-import noblezaGaucha1kgImg from '/images/a1961919bf8401f9fcb0f5c95ca1a70b16d53326.png';
-import piporeImg from '/images/e516035b51b6f93457859063017700985c2e1813.png';
-import pipore500gImg from '/images/516526de9bafe09c0107e71e1736e9779afeb408.png';
-import pipore1kgImg from '/images/06ef619ccfa03a7052bb5825814b95c34bc021ff.png';
-import pipore1kgNewImg from '/images/pipore-1kg-new.png';
-import roundTinBoxImg from '/images/ecbc81a033811928a9751fabcb525409ebb596c2.png';
-import campesinoImg from '/images/0940a68d88d86a615ef9f7872a0cde325c0659e0.png';
-import laRubiaImg from '/images/04e40e78744d85da06f4430680aee7c7bfaab863.png';
-import selectaImg from '/images/ec62df880946fd19bc21903c055f6491335dfd36.png';
-import cruzDeMaltaImg from '/images/4866acaec6e2dc6bbff0f11329b3adbaab20aca3.png';
-import sultanImg from '/images/d2a7c8111f3c2329159ad5a91ff5aa872317103f.png';
-import sultanExtractImg from '/images/cbc1afb88ddabb3ea14749806945dc47d499ff37.png';
-import yerbaMatepiilsImg from '/images/ad9de96401e7357b8a75ecdf8cf96298de30f9bd.png';
-import mateCupBombillaImg from '/images/a38b55d428ab64d30013730a44a003b00f12b554.png';
-import mateCupBlackImg from '/images/d31e168be3bf96a92644b14f4126691fb52927a5.png';
-import mateCupWoodImg from '/images/c4168cc9938c60e16939ffb3ddc9c048f5540f69.png';
-import pompidouMateCupImg from '/images/a870d3372f0afe7112b22cb5e2bd0f0f2e1916ea.png';
-import clayVesselImg from '/images/56af361cedcb3e0a5a89333e59d23413be74d0b9.png';
-import pompidouLuxuryCupImg from '/images/aeb6d780cf03a18a9922516bd2dc6b0b6eeaa4bf.png';
-import colorCupsImg from '/images/8335dbd9bface47eee92b9bad00df4847a7980a0.png';
-import mateCup180LidImg from '/images/3f9e6451a699dfc0bc7b38e72a6c9b4198923e97.png';
-import pompidouLogoJugImg from '/images/70ede86cd4e934948faf24b2d7387cd5da49820d.png';
-import mateCupLedImg from '/images/509831115cc7b23d70c46b691ca7a86e54ace40f.png';
-import bombillaImg from '/images/d4c7c8ef9a2f850c7f5fee3b50d925759510985a.png';
-import nickelDoubleCupImg from '/images/0b6782402ee3ddcd759d26cef91a3823bcbde86a.png';
+import pompidouOrganit250gImg  from '/images/f3488f03ae7baebdb8ce800b6d1d3c29c1e3f4cb.png';
+import pompidouOrganitImg      from '/images/62ccd587b94216ed13d215e27fae34a775a3508e.png';
+import pompidouOrganit1kgImg   from '/images/a331df80a5eaf5531fb8bb41d5462529c594c655.png';
+import pompidouFlamingoImg     from '/images/908d86ec11ea4271b6f70e72d71be9f37b3846cc.png';
+import padjaritoImg            from '/images/de4e8a500c3fbfeee23db94ae2b30e031987a93c.png';
+import padjaritoSpecialImg     from '/images/ad4344730919d7b05b2fc8e117fc21b5869a51f5.png';
+import noblezaGauchaImg        from '/images/8175c31a6edd6ad542ddfaae2cd80083b2e16d6f.png';
+import noblezaGaucha1kgImg     from '/images/a1961919bf8401f9fcb0f5c95ca1a70b16d53326.png';
+import piporeImg               from '/images/e516035b51b6f93457859063017700985c2e1813.png';
+import pipore500gImg           from '/images/516526de9bafe09c0107e71e1736e9779afeb408.png';
+import pipore1kgImg            from '/images/06ef619ccfa03a7052bb5825814b95c34bc021ff.png';
+import pipore1kgNewImg         from '/images/80101d5c9bd4788700d012f2f01e6ebbfc41539e.png';
+import roundTinBoxImg          from '/images/ecbc81a033811928a9751fabcb525409ebb596c2.png';
+import campesinoImg            from '/images/0940a68d88d86a615ef9f7872a0cde325c0659e0.png';
+import laRubiaImg              from '/images/04e40e78744d85da06f4430680aee7c7bfaab863.png';
+import selectaImg              from '/images/ec62df880946fd19bc21903c055f6491335dfd36.png';
+import cruzDeMaltaImg          from '/images/4866acaec6e2dc6bbff0f11329b3adbaab20aca3.png';
+import sultanImg               from '/images/d2a7c8111f3c2329159ad5a91ff5aa872317103f.png';
+import sultanExtractImg        from '/images/cbc1afb88ddabb3ea14749806945dc47d499ff37.png';
+import yerbaMatepiilsImg       from '/images/ad9de96401e7357b8a75ecdf8cf96298de30f9bd.png';
+import mateCupBombillaImg      from '/images/a38b55d428ab64d30013730a44a003b00f12b554.png';
+import mateCupBlackImg         from '/images/d31e168be3bf96a92644b14f4126691fb52927a5.png';
+import mateCupWoodImg          from '/images/c4168cc9938c60e16939ffb3ddc9c048f5540f69.png';
+import pompidouMateCupImg      from '/images/a870d3372f0afe7112b22cb5e2bd0f0f2e1916ea.png';
+import clayVesselImg           from '/images/56af361cedcb3e0a5a89333e59d23413be74d0b9.png';
+import pompidouLuxuryCupImg    from '/images/aeb6d780cf03a18a9922516bd2dc6b0b6eeaa4bf.png';
+import colorCupsImg            from '/images/8335dbd9bface47eee92b9bad00df4847a7980a0.png';
+import mateCup180LidImg        from '/images/3f9e6451a699dfc0bc7b38e72a6c9b4198923e97.png';
+import pompidouLogoJugImg      from '/images/70ede86cd4e934948faf24b2d7387cd5da49820d.png';
+import mateCupLedImg           from '/images/509831115cc7b23d70c46b691ca7a86e54ace40f.png';
+import bombillaImg             from '/images/d4c7c8ef9a2f850c7f5fee3b50d925759510985a.png';
+import nickelDoubleCupImg      from '/images/0b6782402ee3ddcd759d26cef91a3823bcbde86a.png';
 import pompidouBlackAlumCupImg from '/images/d7be75a0d7fdd640feb844cdbb5d8ca1feb3e9e8.png';
-import thermos1LBlackImg from '/images/c125a1b5fdcdd17c0a3209df2c1c920ebdf9591d.png';
-import thermos1LNickelImg from '/images/5f481e497f0e5a934b7966a206532b6d5a117d55.png';
-import hornMateCupImg from '/images/787ff467447694163b17a26cbf6f06dbb107faf9.png';
-import gamboThermos12LImg from '/images/a0695ab547ec08ae70fd1e8059ec64db221aef50.png';
-import mateCup210MixedImg from '/images/68a3d67e7b7256011e37a58715b8bd7b67b8d6f6.png';
-import leatherMateCupImg from '/images/443b8894b3251b6ccba1bd1ae00631a154727b5a.png';
-import luxuryWoodCupImg from '/images/13d81f49618822bc9986490bf3ea3aec62c3c27d.png';
-import gourdMateCupImg from '/images/92e5828f95c68a2745a60c26190dc74b33049b55.png';
-import naturalGourdNickelImg from '/images/46331334fdffeacfa31abd5aefce6fc7a1fef467.png';
-import woodenMateBoxImg from '/images/0a7e572ce66862e4e416692f12a52d027e8086a6.png';
-import bambooBombillaImg from '/images/8d67e841af069d6e8021af9b514196312f6248d6.png';
-import mateTrailCrateImg from '/images/d470468346c90120a8126f60f50eec3dd94a373a.png';
-import olivewoodBombillaImg from '/images/4ef2af95f0c9f44c8900adb844a0e9da22d4093c.png';
-import coloredBombillaImg from '/images/2b22d1440986e973f502d49aba20e40c2113a221.png';
-import classicBombillaImg from '/images/630c5a4dd967e0784d37aaee2cc510e43f6dcdcf.png';
-import beadedBombillaImg from '/images/562a4ffba25238514693dad10a383396ac795e8b.png';
-import beadedBombilla15Img from '/images/016dc3cfa9becb8883c7c4f8704d35abe136c701.png';
-import aluminumThermos500Img from '/images/8b288ed499f992dd25f7f64db0268d2ce19989ae.png';
-import herbExtractionStandImg from '/images/293722ca70dd0326e2ed0a671feedc61d631f6b8.png';
-import blackSnakeCupImg from '/images/ef88fa4260dedf4eef9796234254c70cd539e40b.png';
-import cosidoMoringaImg from '/images/0cb8e23bad7e5de99fe7884aceba328aa7e0ab72.png';
-import cosidoCurcuMateImg from '/images/67501bd5bcda359d7cc1bf958435cc0c47ed27a7.png';
-import cosidoMatchaImg from '/images/d6aa3db9a94344b569d50a7bf0b3bd0552b2a5b1.png';
-import cosidoClassicImg from '/images/7817c79a3760c9510821c0572d56b6a18dca0bbe.png';
-import mediterraneanHerbsImg from '/images/73020bf1f3dbb89bb9dd8a4f48a048345a517c2b.png';
-import cardamomImg from '/images/0555ca19d5c63160715cd97c4149122c90f77561.png';
-import cinnamonImg from '/images/52e2ca3f06ae5edf75aa4f099afb359e825b362e.png';
-import superfoodBundleImg from '/images/4476903a5128ba6dabf3f35a412d934c0721a5cd.png';
-import cosidoCardamomImg from '/images/4a7d289373d4d3bbd764b4072db95db1638145aa.png';
-import cosidoCinnamonImg from '/images/5e2888a99cdcf7e5292b7abfe74911fab21ef4fc.png';
-import cosidoMedHerbsImg from '/images/a051780ca02603220adcb9267cd666ce9c0d27f8.png';
+import thermos1LBlackImg       from '/images/c125a1b5fdcdd17c0a3209df2c1c920ebdf9591d.png';
+import thermos1LNickelImg      from '/images/5f481e497f0e5a934b7966a206532b6d5a117d55.png';
+import hornMateCupImg          from '/images/787ff467447694163b17a26cbf6f06dbb107faf9.png';
+import gamboThermos12LImg      from '/images/a0695ab547ec08ae70fd1e8059ec64db221aef50.png';
+import mateCup210MixedImg      from '/images/68a3d67e7b7256011e37a58715b8bd7b67b8d6f6.png';
+import leatherMateCupImg       from '/images/443b8894b3251b6ccba1bd1ae00631a154727b5a.png';
+import luxuryWoodCupImg        from '/images/13d81f49618822bc9986490bf3ea3aec62c3c27d.png';
+import gourdMateCupImg         from '/images/92e5828f95c68a2745a60c26190dc74b33049b55.png';
+import naturalGourdNickelImg   from '/images/46331334fdffeacfa31abd5aefce6fc7a1fef467.png';
+import woodenMateBoxImg        from '/images/0a7e572ce66862e4e416692f12a52d027e8086a6.png';
+import bambooBombillaImg       from '/images/8d67e841af069d6e8021af9b514196312f6248d6.png';
+import mateTrailCrateImg       from '/images/d470468346c90120a8126f60f50eec3dd94a373a.png';
+import olivewoodBombillaImg    from '/images/4ef2af95f0c9f44c8900adb844a0e9da22d4093c.png';
+import coloredBombillaImg      from '/images/2b22d1440986e973f502d49aba20e40c2113a221.png';
+import classicBombillaImg      from '/images/630c5a4dd967e0784d37aaee2cc510e43f6dcdcf.png';
+import beadedBombillaImg       from '/images/562a4ffba25238514693dad10a383396ac795e8b.png';
+import beadedBombilla15Img     from '/images/016dc3cfa9becb8883c7c4f8704d35abe136c701.png';
+import aluminumThermos500Img   from '/images/8b288ed499f992dd25f7f64db0268d2ce19989ae.png';
+import herbExtractionStandImg  from '/images/293722ca70dd0326e2ed0a671feedc61d631f6b8.png';
+import blackSnakeCupImg        from '/images/ef88fa4260dedf4eef9796234254c70cd539e40b.png';
+import cosidoMoringaImg        from '/images/0cb8e23bad7e5de99fe7884aceba328aa7e0ab72.png';
+import cosidoCurcuMateImg      from '/images/67501bd5bcda359d7cc1bf958435cc0c47ed27a7.png';
+import cosidoMatchaImg         from '/images/d6aa3db9a94344b569d50a7bf0b3bd0552b2a5b1.png';
+import cosidoClassicImg        from '/images/7817c79a3760c9510821c0572d56b6a18dca0bbe.png';
+import mediterraneanHerbsImg   from '/images/73020bf1f3dbb89bb9dd8a4f48a048345a517c2b.png';
+import cardamomImg             from '/images/0555ca19d5c63160715cd97c4149122c90f77561.png';
+import cinnamonImg             from '/images/52e2ca3f06ae5edf75aa4f099afb359e825b362e.png';
+import superfoodBundleImg      from '/images/4476903a5128ba6dabf3f35a412d934c0721a5cd.png';
+import cosidoCardamomImg       from '/images/4a7d289373d4d3bbd764b4072db95db1638145aa.png';
+import cosidoCinnamonImg       from '/images/5e2888a99cdcf7e5292b7abfe74911fab21ef4fc.png';
+import cosidoMedHerbsImg       from '/images/a051780ca02603220adcb9267cd666ce9c0d27f8.png';
 import specialRoundBombillaImg from '/images/ea1ce804a63b76141b1fe49f9d2bbce0ac02e001.png';
-import pompidouSetPinkCupImg from '/images/0926b2b9b0c274cafc7b0e56d5c48e108c8651aa.png';
-import pompidouSetCopperCupImg from '/images/e459f36602a9fc89be5820bdd6829337785dd56d.png';
+import pompidouSetPinkCupImg   from '/images/0926b2b9b0c274cafc7b0e56d5c48e108c8651aa.png';
+import pompidouSetCopperCupImg  from '/images/e459f36602a9fc89be5820bdd6829337785dd56d.png';
 import pompidouSetLeatherCupImg from '/images/e74da3cea6a6f640ef281ae3c37a4007b9ba1a67.png';
-import pompidouSetWhiteCupImg from '/images/47b7732592e8fb921ea87629a919832955adbeeb.png';
-import pompidouSetClayCupImg from '/images/7dd74ed3d0e1da261519024cc27278395ca67e7b.png';
-import pompidouSetGourdImg from '/images/fad54e4c0eba21e242c8a68968a7fda123ca7a9e.png';
+import pompidouSetWhiteCupImg   from '/images/47b7732592e8fb921ea87629a919832955adbeeb.png';
+import pompidouSetClayCupImg    from '/images/7dd74ed3d0e1da261519024cc27278395ca67e7b.png';
+import pompidouSetGourdImg      from '/images/fad54e4c0eba21e242c8a68968a7fda123ca7a9e.png';
 import pompidouSetCeramicCupImg from '/images/1330861a5d9f1d0bdc87e462a5fd7ca1ed34d73b.png';
 import pompidouSetRedLeatherImg from '/images/ccee40d85a1ca34b82cb423f35511d7423b60814.png';
-import pompidouSetRedCupImg from '/images/1c53454dd957295f8676b7d3fc8df67551751697.png';
-import baniasPakalImg from '/images/b4832d023c6d2fa193b2f4451b2c34fb4744a9f6.png';
-import briutMehatevaPakalImg from '/images/6e59161e0c853c48a8b9ffe93229ec6aa14aebb7.png';
-import tiyulimPakalImg from '/images/9ab36bf9c85fc3c2e0827c5cd5aca97279d7c7d7.png';
-import steviaPompidouImg from '/images/a0c99a70d4369c407d64421183cdde91697e1a73.png';
-import soapMudMateImg from '/images/4bff7a5737005fa7b9c44f9b3fb473547c1fb590.png';
-import soapLavenderImg from '/images/c3635b8c8c9da52762f927906e55fc6e109b90ca.png';
-import soapTurmericImg from '/images/699bac098efe5c12e650eb442fbcab4ec95c5ef7.png';
-import soapPomegranateImg from '/images/39e278246dec2c924e4af8afd046778a7a6a8a9f.png';
-import soapLemongrassImg from '/images/e4571342d02194a41d137f1bb4dd5f9c440356ee.png';
-import shampooBarMildImg from '/images/15eed4f486a78046b34f77585ac873b3831bf31a.png';
+import pompidouSetRedCupImg     from '/images/1c53454dd957295f8676b7d3fc8df67551751697.png';
+import baniasPakalImg           from '/images/b4832d023c6d2fa193b2f4451b2c34fb4744a9f6.png';
+import briutMehatevaPakalImg    from '/images/6e59161e0c853c48a8b9ffe93229ec6aa14aebb7.png';
+import tiyulimPakalImg          from '/images/9ab36bf9c85fc3c2e0827c5cd5aca97279d7c7d7.png';
+import steviaPompidouImg       from '/images/a0c99a70d4369c407d64421183cdde91697e1a73.png';
+import soapMudMateImg          from '/images/4bff7a5737005fa7b9c44f9b3fb473547c1fb590.png';
+import soapLavenderImg         from '/images/c3635b8c8c9da52762f927906e55fc6e109b90ca.png';
+import soapTurmericImg         from '/images/699bac098efe5c12e650eb442fbcab4ec95c5ef7.png';
+import soapPomegranateImg      from '/images/39e278246dec2c924e4af8afd046778a7a6a8a9f.png';
+import soapLemongrassImg       from '/images/e4571342d02194a41d137f1bb4dd5f9c440356ee.png';
+import shampooBarMildImg       from '/images/15eed4f486a78046b34f77585ac873b3831bf31a.png';
 
 export type ProductCategory = 'YerbaMate' | 'Sets' | 'Accessories' | 'Soaps';
 
@@ -321,13 +321,13 @@ export const products: Product[] = [
     featured: true,
     weights: ['3 × 170g'],
   },
-  /* description: 'מארז מיוחד במחיר מבצע הכולל 3 קופסות קוסידו (Cocido Yerba Mate) אורגניות מבית פומפידו: קוסידו עם מורינגה, קוסידו עם כורכומין (CurcuMate) וקוסידו עם מאצ\'ה — שלושת ה"סופר-פודים" הפופולריים ביותר. כל קופסה 170 גרם, ארוזות יחד במגש אדום מהודר. המארז מושלם לגילוי, למתנה עסקית ולנקודות מכירה. הזמנה מינימלית לסיטונאים.',
-  weight: '3 × 170g',
-  image: superfoodBundleImg,
-  sku: 'FLV-SPF-TRIO-060',
-  featured: true,
-  weights: ['3 × 170g'],
-}, */
+    /* description: 'מארז מיוחד במחיר מבצע הכולל 3 קופסות קוסידו (Cocido Yerba Mate) אורגניות מבית פומפידו: קוסידו עם מורינגה, קוסידו עם כורכומין (CurcuMate) וקוסידו עם מאצ\'ה — שלושת ה"סופר-פודים" הפופולריים ביותר. כל קופסה 170 גרם, ארוזות יחד במגש אדום מהודר. המארז מושלם לגילוי, למתנה עסקית ולנקודות מכירה. הזמנה מינימלית לסיטונאים.',
+    weight: '3 × 170g',
+    image: superfoodBundleImg,
+    sku: 'FLV-SPF-TRIO-060',
+    featured: true,
+    weights: ['3 × 170g'],
+  }, */
 
   // ── YerbaMate — מותגים נוספים ─────────────────────────────────────────────
   {

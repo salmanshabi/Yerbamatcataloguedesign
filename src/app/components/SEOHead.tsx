@@ -40,7 +40,7 @@ const websiteSchema = {
 const homeSchemas = JSON.stringify([businessSchema, websiteSchema]);
 const aboutSchemas = JSON.stringify([businessSchema]);
 
-const OG_IMAGE = 'https://images.unsplash.com/photo-1648485716909-2636f8abb2cd?w=1200&h=630&fit=crop&q=80';
+const OG_IMAGE = `${SITE_URL}/images/13dc8d557d8360ccddfce8eb7118c03ba57a9655.png`;
 
 interface SEOHeadProps {
   page?: 'home' | 'about';

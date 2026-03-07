@@ -68,7 +68,7 @@ export function SEOHead({ page = 'home' }: SEOHeadProps) {
       <meta name="author" content="Herbalook" />
       <meta
         name="keywords"
-        content="ג׳רבה מאטה, yerba mate, מאטה אורגני, קטלוג סיטונות, Herbalook, מאטה לעסק��ם, ייבוא מאטה, מאטה ישראל, מאטה אורגנית, herbalook.online"
+        content="ג׳רבה מאטה, yerba mate, מאטה אורגני, קטלוג סיטונאי, Herbalook, מאטה לעסקים, ייבוא מאטה, מאטה ישראל, מאטה אורגנית, herbalook.online"
       />
 
       {/* Open Graph */}

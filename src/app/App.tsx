@@ -387,7 +387,7 @@ export default function App() {
                         className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-7 text-[14px]"
                         style={{ backgroundColor: 'rgba(200,150,62,0.2)', color: '#C8963E', border: '1px solid rgba(200,150,62,0.35)', fontWeight: 700 }}
                       >
-                        קטלוג סיטונות והצעה
+                        קטלוג סיטונאי והצעה
                         <Leaf size={12} />
                       </motion.div>
 

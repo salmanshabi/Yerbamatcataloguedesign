@@ -41,6 +41,8 @@ export function ProductCard({ name, image, weight, description, weights, sku, im
             alt={name}
             className="absolute inset-0 w-full h-full object-contain group-hover/card:scale-[1.02] transition-transform duration-500"
             style={imageScale ? { transform: `scale(${imageScale})`, transformOrigin: 'center center' } : undefined}
+            loading="lazy"
+            decoding="async"
           />
           <div
             className="absolute inset-0 flex items-center justify-center opacity-0 group-hover/card:opacity-100 transition-opacity duration-300"

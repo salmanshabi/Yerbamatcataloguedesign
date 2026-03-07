@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useMemo } from 'react';
+import React, { useState, useEffect, useRef, useMemo, Suspense } from 'react';
 import { motion, AnimatePresence, useReducedMotion, useScroll, useTransform } from 'motion/react';
 import { HelmetProvider } from 'react-helmet-async';
 import { products } from './data/products';
@@ -7,8 +7,8 @@ import { ProductCard } from './components/ProductCard';
 import { PartnerReason } from './components/PartnerReason';
 import { BenefitCard } from './components/BenefitCard';
 import { AnimatedSection } from './components/AnimatedSection';
-import { AboutPage } from './components/AboutPage';
 import { SEOHead } from './components/SEOHead';
+const AboutPage = React.lazy(() => import('./components/AboutPage').then(module => ({ default: module.AboutPage })));
 import {
   Leaf, Heart, Zap, Shield, Menu, Mail, Globe, X,
   TrendingUp, Package, Users, Award, ArrowLeft, ChevronDown, CheckCircle,
@@ -222,7 +222,7 @@ export default function App() {
                 className="flex items-center gap-2"
                 style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}
               >
-                <img src={logo} alt="Herbalook" className="h-10 brightness-0 invert" />
+                <img src={logo} alt="Herbalook" className="h-10 brightness-0 invert" fetchPriority="high" loading="eager" />
               </button>
 
               {/* Desktop links */}
@@ -337,7 +337,9 @@ export default function App() {
               exit={{ opacity: 0 }}
               transition={{ duration: 0.3 }}
             >
-              <AboutPage onNavigateHome={goHome} />
+              <Suspense fallback={<div className="min-h-screen flex items-center justify-center text-[#2C5432]">Loading...</div>}>
+                <AboutPage onNavigateHome={goHome} />
+              </Suspense>
             </motion.div>
           ) : (
             <motion.div
@@ -356,6 +358,8 @@ export default function App() {
                     alt="שדות Herbalook"
                     style={{ y: heroParallaxY, height: 'calc(100% + 20px)', top: '-10px' }}
                     className="absolute inset-x-0 w-full object-cover"
+                    fetchPriority="high"
+                    loading="eager"
                   />
                   <div
                     className="absolute inset-0"
@@ -370,7 +374,7 @@ export default function App() {
                     transition={{ duration: 0.5, ease: 'easeOut' }}
                     className="flex justify-center mb-10"
                   >
-                    <img src={logo} alt="Herbalook" className="h-16 md:h-20 brightness-0 invert" />
+                    <img src={logo} alt="Herbalook" className="h-16 md:h-20 brightness-0 invert" fetchPriority="high" loading="eager" />
                   </motion.div>
 
                   <div className="flex justify-center">
@@ -599,7 +603,7 @@ export default function App() {
                         אנחנו לא רק מספקים מוצר. מודל השותפות שלנו בנוי כדי לעזור לעסק שלך לצמוח — מתנאי סיטונאות תחרותיים ועד תמיכה שיווקית ואימון צוות.
                       </p>
                       <div className="rounded-2xl overflow-hidden shadow-xl" style={{ border: '1px solid rgba(255,255,255,0.08)' }}>
-                        <img src={FARM_IMAGE} alt="Herbalook" className="w-full object-cover" style={{ height: '300px' }} />
+                        <img src={FARM_IMAGE} alt="Herbalook" className="w-full object-cover" style={{ height: '300px' }} loading="lazy" />
                       </div>
                     </div>
                     <div className="grid gap-8" dir="rtl">

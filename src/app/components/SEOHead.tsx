@@ -89,10 +89,8 @@ export function SEOHead({ page = 'home' }: SEOHeadProps) {
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={OG_IMAGE} />
 
-      {/* JSON-LD — single script, no conditional children */}
-      <script type="application/ld+json">
-        {isHome ? homeSchemas : aboutSchemas}
-      </script>
+      {/* JSON-LD — securely injected script tags to avoid React escaping */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: isHome ? homeSchemas : aboutSchemas }} />
     </Helmet>
   );
 }

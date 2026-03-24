@@ -86,6 +86,7 @@ const soapPomegranateImg = '/images/39e278246dec2c924e4af8afd046778a7a6a8a9f.png
 const soapLemongrassImg = '/images/e4571342d02194a41d137f1bb4dd5f9c440356ee.png';
 const shampooBarMildImg = '/images/15eed4f486a78046b34f77585ac873b3831bf31a.png';
 const coliseoImg = '/images/coliseo.png';
+const kurupiClasicaImg = '/images/kurupi-clasica-500g.jpg';
 
 export type ProductCategory = 'YerbaMate' | 'Sets' | 'Accessories' | 'Soaps';
 
@@ -489,6 +490,17 @@ export const products: Product[] = [
     sku: 'YM-PIL-019',
     featured: false,
     weights: ['60 טבליות'],
+  },
+  {
+    id: 'trad-14',
+    name: 'ג׳רבה מאטה קורופי קלאסיקה — Kurupí Clásica',
+    category: 'YerbaMate',
+    description: 'קורופי קלאסיקה (Kurupí Clásica) — ג׳רבה מאטה פרגואית קלאסית מבית Kurupí, מותג ותיק ומכובד בפרגואי עם 60 שנות מסורת. קוסצ׳ה סלקציונאדה (Cosecha Seleccionada) — 100% ירבה טבעית בטחינה מסורתית מלאה ואיכותית. אריזה צהובה אייקונית עם עיצוב מסורתי הכולל גאוצ׳וס קוצרים את היבול. ייצוא פרגואי, תעשייה פרגואית מוסמכת (Industria Paraguaya). ארומה עשבונית עמוקה וטעם מלא, עשיר וחזק — מועדפת על שותי מאטה המחפשים עוצמה ואותנטיות פרגואית. 500 גרם.',
+    weight: '500g',
+    image: kurupiClasicaImg,
+    sku: 'YM-KRP-020',
+    featured: false,
+    weights: ['500g'],
   },
 
 

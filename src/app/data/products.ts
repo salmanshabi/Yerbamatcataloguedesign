@@ -459,6 +459,17 @@ export const products: Product[] = [
     weights: ['500g'],
   },
   {
+    id: 'trad-14',
+    name: 'ג׳רבה מאטה קורופי קלאסיקה — Kurupí Clásica',
+    category: 'YerbaMate',
+    description: 'קורופי קלאסיקה (Kurupí Clásica) — ג׳רבה מאטה פרגואית קלאסית מבית Kurupí, מותג ותיק ומכובד בפרגואי עם 60 שנות מסורת. קוסצ׳ה סלקציונאדה (Cosecha Seleccionada) — 100% ירבה טבעית בטחינה מסורתית מלאה ואיכותית. אריזה צהובה אייקונית עם עיצוב מסורתי הכולל גאוצ׳וס קוצרים את היבול. ייצוא פרגואי, תעשייה פרגואית מוסמכת (Industria Paraguaya). ארומה עשבונית עמוקה וטעם מלא, עשיר וחזק — מועדפת על שותי מאטה המחפשים עוצמה ואותנטיות פרגואית. 500 גרם.',
+    weight: '500g',
+    image: kurupiClasicaImg,
+    sku: 'YM-KRP-020',
+    featured: false,
+    weights: ['500g'],
+  },
+  {
     id: 'trad-11',
     name: 'תיות מאטה סולטן',
     category: 'YerbaMate',
@@ -490,17 +501,6 @@ export const products: Product[] = [
     sku: 'YM-PIL-019',
     featured: false,
     weights: ['60 טבליות'],
-  },
-  {
-    id: 'trad-14',
-    name: 'ג׳רבה מאטה קורופי קלאסיקה — Kurupí Clásica',
-    category: 'YerbaMate',
-    description: 'קורופי קלאסיקה (Kurupí Clásica) — ג׳רבה מאטה פרגואית קלאסית מבית Kurupí, מותג ותיק ומכובד בפרגואי עם 60 שנות מסורת. קוסצ׳ה סלקציונאדה (Cosecha Seleccionada) — 100% ירבה טבעית בטחינה מסורתית מלאה ואיכותית. אריזה צהובה אייקונית עם עיצוב מסורתי הכולל גאוצ׳וס קוצרים את היבול. ייצוא פרגואי, תעשייה פרגואית מוסמכת (Industria Paraguaya). ארומה עשבונית עמוקה וטעם מלא, עשיר וחזק — מועדפת על שותי מאטה המחפשים עוצמה ואותנטיות פרגואית. 500 גרם.',
-    weight: '500g',
-    image: kurupiClasicaImg,
-    sku: 'YM-KRP-020',
-    featured: false,
-    weights: ['500g'],
   },
 
 

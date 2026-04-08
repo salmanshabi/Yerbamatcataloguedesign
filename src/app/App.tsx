@@ -54,6 +54,21 @@ const stats = [
   { value: '+500', label: 'שותפי קמעונאות' },
 ];
 
+const categoryCounts = products.reduce(
+  (counts, product) => {
+    if (!product.id.startsWith('dup-')) {
+      counts[product.category] += 1;
+    }
+    return counts;
+  },
+  {
+    YerbaMate: 0,
+    Sets: 0,
+    Accessories: 0,
+    Soaps: 0,
+  } satisfies Record<ProductCategory, number>
+);
+
 const footerCategories: { label: string; category: CategoryFilter }[] = [
   { label: 'ג׳רבה מאטה', category: 'YerbaMate' },
   { label: 'סטים', category: 'Sets' },
@@ -503,7 +518,7 @@ export default function App() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, margin: '-60px' }}
                     transition={{ duration: 0.5, delay: 0.1, ease: 'easeOut' }}
-                    className="flex flex-wrap justify-center gap-2 mb-10"
+                    className="flex flex-wrap justify-center gap-3 mb-10"
                   >
                     {([
                       { key: 'YerbaMate', label: 'ג׳רבה מאטה' },
@@ -513,18 +528,42 @@ export default function App() {
                     ] as { key: CategoryFilter; label: string }[]).map(({ key, label }) => (
                       <motion.button
                         key={key}
-                        whileTap={reduced ? {} : { scale: 0.97 }}
-                        whileHover={reduced ? {} : { y: -1 }}
-                        transition={{ duration: 0.15 }}
+                        whileTap={reduced ? {} : { scale: 0.985 }}
+                        whileHover={reduced ? {} : { y: -2 }}
+                        transition={{ duration: 0.18 }}
                         onClick={() => setActiveCategory(key)}
-                        className="text-sm px-5 py-2 rounded-xl"
+                        className="min-w-[150px] rounded-2xl border px-6 py-3.5 text-center"
                         style={
                           activeCategory === key
-                            ? { backgroundColor: '#2C5432', color: '#ffffff', border: 'none', cursor: 'pointer' }
-                            : { backgroundColor: '#EEF5EE', color: '#2C5432', border: 'none', cursor: 'pointer' }
+                            ? {
+                                backgroundColor: '#2C5432',
+                                color: '#ffffff',
+                                border: '1px solid #C8963E',
+                                boxShadow: '0 16px 28px rgba(28,43,30,0.14)',
+                                cursor: 'pointer',
+                              }
+                            : {
+                                backgroundColor: '#ffffff',
+                                color: '#2C5432',
+                                border: '1px solid rgba(44,84,50,0.12)',
+                                boxShadow: '0 10px 22px rgba(28,43,30,0.06)',
+                                cursor: 'pointer',
+                              }
                         }
+                        aria-pressed={activeCategory === key}
                       >
-                        {label}
+                        <span
+                          className="block"
+                          style={{ fontSize: '1rem', fontWeight: 700, lineHeight: 1.25 }}
+                        >
+                          {label}
+                        </span>
+                        <span
+                          className="mt-1 block text-[12px]"
+                          style={{ color: activeCategory === key ? 'rgba(255,255,255,0.78)' : '#6E8473' }}
+                        >
+                          {categoryCounts[key as ProductCategory]} מוצרים
+                        </span>
                       </motion.button>
                     ))}
                   </motion.div>

@@ -17,9 +17,9 @@ const mateBenefits = [
 ];
 
 const origins = [
-  { country: 'ארגנטינה', flag: '🇦🇷', desc: "מקור ראשי לג׳רבה מאטה אורגנית פראית מיערות האיגואסו" },
+  { country: 'ארגנטינה', flag: '🇦🇷', desc: "מקור ראשי לירבה מאטה אורגנית פראית מיערות האיגואסו" },
   { country: 'פאראגואי', flag: '🇵🇾', desc: 'זנים מסורתיים מובחרים מלב יבשת דרום אמריקה' },
-  { country: 'אורוגואי', flag: '🇺🇾', desc: "חליטות פרמיום בסגנון אורוגוואי הידוע בתרבות הג׳רבה מאטה שלו" },
+  { country: 'אורוגואי', flag: '🇺🇾', desc: "חליטות פרמיום בסגנון אורוגוואי הידוע בתרבות הירבה מאטה שלו" },
 ];
 
 interface AboutPageProps {
@@ -79,7 +79,7 @@ export function AboutPage({ onNavigateHome }: AboutPageProps) {
             className="mx-auto text-lg leading-relaxed"
             style={{ color: 'rgba(255,255,255,0.7)', maxWidth: '680px' }}
           >
-            חברתנו מתמחה בייבוא ושיווק צמח ג׳רבה מאטה מדרום אמריקה מאז 1994. אנו מאמינים שהטבע מספק את הפתרונות הטובים ביותר לבריאות הגוף והנפש.
+            חברתנו מתמחה בייבוא ושיווק צמח ירבה מאטה מדרום אמריקה מאז 1994. אנו מאמינים שהטבע מספק את הפתרונות הטובים ביותר לבריאות הגוף והנפש.
           </motion.p>
         </div>
       </section>
@@ -95,13 +95,13 @@ export function AboutPage({ onNavigateHome }: AboutPageProps) {
                 className="mb-6"
               >
                 שלושה עשורים של<br />
-                <span style={{ color: '#2C5432' }}>תשוקה לג׳רבה מאטה</span>
+                <span style={{ color: '#2C5432' }}>תשוקה לירבה מאטה</span>
               </h2>
               <p className="leading-relaxed mb-5" style={{ color: '#4A5E4D', lineHeight: 1.9, fontSize: '1.02rem' }}>
-                חברתנו מתמחה בייבוא ושיווק צמח ג׳רבה מאטה מדרום אמריקה מאז 1994. את המוצרים שלנו אנו מייבאים ממפעלים מובחרים בארגנטינה, פאראגואי ואורוגואי.
+                חברתנו מתמחה בייבוא ושיווק צמח ירבה מאטה מדרום אמריקה מאז 1994. את המוצרים שלנו אנו מייבאים ממפעלים מובחרים בארגנטינה, פאראגואי ואורוגואי.
               </p>
               <p className="leading-relaxed mb-5" style={{ color: '#4A5E4D', lineHeight: 1.9, fontSize: '1.02rem' }}>
-                בתקופה האחרונה התחלנו לייבא סוג מיוחד של ג׳רבה מאטה אורגנית, הצומחת ביערות על גדות מפלי האיגואסו בארגנטינה באופן פראי — ללא דשנים, ללא ריסוס.
+                בתקופה האחרונה התחלנו לייבא סוג מיוחד של ירבה מאטה אורגנית, הצומחת ביערות על גדות מפלי האיגואסו בארגנטינה באופן פראי — ללא דשנים, ללא ריסוס.
               </p>
               <p className="leading-relaxed" style={{ color: '#4A5E4D', lineHeight: 1.9, fontSize: '1.02rem' }}>
                 צמח טהור כפי שהטבע יצר אותו — זו הפילוסופיה שמנחה אותנו בבחירת כל מוצר שאנו מביאים ללקוחותינו.
@@ -116,7 +116,7 @@ export function AboutPage({ onNavigateHome }: AboutPageProps) {
                 style={{ backgroundColor: '#1E3A23', border: '1px solid rgba(200,150,62,0.3)' }}
               >
                 <p className="text-xs mb-1" style={{ color: 'rgba(255,255,255,0.5)' }}>מפלי האיגואסו, ארגנטינה</p>
-                <p className="text-sm" style={{ color: '#C8963E', fontWeight: 700 }}>מקור הג׳רבה מאטה האורגנית שלנו</p>
+                <p className="text-sm" style={{ color: '#C8963E', fontWeight: 700 }}>מקור הירבה מאטה האורגנית שלנו</p>
               </div>
             </motion.div>
           </div>
@@ -129,7 +129,7 @@ export function AboutPage({ onNavigateHome }: AboutPageProps) {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div {...fadeUp(0.1)} className="order-2 lg:order-1">
               <div className="rounded-3xl overflow-hidden shadow-2xl">
-                <img src={MATE_LEAVES} alt="עלי ג׳רבה מאטה" className="w-full object-cover" style={{ height: '420px' }} />
+                <img src={MATE_LEAVES} alt="עלי ירבה מאטה" className="w-full object-cover" style={{ height: '420px' }} />
               </div>
             </motion.div>
             <motion.div {...fadeUp()} className="text-right order-1 lg:order-2">
@@ -138,10 +138,10 @@ export function AboutPage({ onNavigateHome }: AboutPageProps) {
                 className="text-white mb-6"
                 style={{ fontFamily: 'Secular One, sans-serif', fontSize: 'clamp(1.8rem, 3vw, 2.5rem)', fontWeight: 400, lineHeight: 1.25 }}
               >
-                מהי ג׳רבה מאטה?
+                מהי ירבה מאטה?
               </h2>
               <p className="leading-relaxed mb-5" style={{ color: '#9DB89F', lineHeight: 1.9 }}>
-                ג׳רבה מאטה (Ilex paraguariensis) היא צמח ירוק עד הגדל ביערות הגשם של דרום אמריקה — בעיקר בארגנטינה, פאראגואי ואורוגואי. עליו מייבשים ומועכים כדי להכין את משקה המאטה המסורתי.
+                ירבה מאטה (Ilex paraguariensis) היא צמח ירוק עד הגדל ביערות הגשם של דרום אמריקה — בעיקר בארגנטינה, פאראגואי ואורוגואי. עליו מייבשים ומועכים כדי להכין את משקה המאטה המסורתי.
               </p>
               <p className="leading-relaxed mb-7" style={{ color: '#9DB89F', lineHeight: 1.9 }}>
                 הצמח נחשב לאחד מהצמחים העשירים ביותר בנוגדי חמצון, ויטמינים ומינרלים. שתיית מאטה היא מסורת בת מאות שנים אצל עמי גוארני, ועם השנים הפכה לפנומן בריאותי עולמי.
@@ -195,7 +195,7 @@ export function AboutPage({ onNavigateHome }: AboutPageProps) {
         <div className="max-w-6xl mx-auto px-5 sm:px-8 lg:px-10">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div {...fadeUp()} className="text-right">
-              <p className="mb-4 text-sm" style={{ color: '#C8963E', letterSpacing: '0.1em' }}>למה ג׳רבה מאטה?</p>
+              <p className="mb-4 text-sm" style={{ color: '#C8963E', letterSpacing: '0.1em' }}>למה ירבה מאטה?</p>
               <h2
                 style={{ fontFamily: 'Secular One, sans-serif', fontSize: 'clamp(1.8rem, 3vw, 2.6rem)', fontWeight: 400, color: '#1C2B1E', lineHeight: 1.25 }}
                 className="mb-8"
@@ -229,7 +229,7 @@ export function AboutPage({ onNavigateHome }: AboutPageProps) {
             </motion.div>
             <motion.div {...fadeUp(0.15)}>
               <div className="rounded-3xl overflow-hidden shadow-2xl" style={{ border: '2px solid rgba(44,84,50,0.1)' }}>
-                <img src={MATE_GOURD} alt="כוס ג׳רבה מאטה מסורתית" className="w-full object-cover" style={{ height: '620px' }} />
+                <img src={MATE_GOURD} alt="כוס ירבה מאטה מסורתית" className="w-full object-cover" style={{ height: '620px' }} />
               </div>
             </motion.div>
           </div>
@@ -245,7 +245,7 @@ export function AboutPage({ onNavigateHome }: AboutPageProps) {
               className="text-white"
               style={{ fontFamily: 'Secular One, sans-serif', fontSize: 'clamp(1.8rem, 3vw, 2.5rem)', fontWeight: 400 }}
             >
-              ג׳רבה מאטה שאפשר לסמוך עליה
+              ירבה מאטה שאפשר לסמוך עליה
             </h2>
           </motion.div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

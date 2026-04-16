@@ -10,7 +10,7 @@ const businessSchema = {
   name: 'Herbalook',
   url: SITE_URL,
   logo: `${SITE_URL}/logo.png`,
-  description: 'ייבוא ושיווק ג׳רבה מאטה אורגנית לעסקים — קמעונאים ומשווקים. פעילים מאז 1994.',
+  description: 'ייבוא ושיווק ירבה מאטה אורגנית לעסקים — קמעונאים ומשווקים. פעילים מאז 1994.',
   foundingDate: '1994',
   telephone: '+972-52-3834722',
   email: 'salmanshaby@gmail.com',
@@ -32,7 +32,7 @@ const websiteSchema = {
   '@type': 'WebSite',
   name: SITE_NAME,
   url: SITE_URL,
-  description: 'קטלוג B2B לג׳רבה מאטה אורגנית — סיטונאות לקמעונאים ומשווקים',
+  description: 'קטלוג B2B לירבה מאטה אורגנית — סיטונאות לקמעונאים ומשווקים',
   inLanguage: 'he',
 };
 
@@ -50,12 +50,12 @@ export function SEOHead({ page = 'home' }: SEOHeadProps) {
   const isHome = page === 'home';
 
   const title = isHome
-    ? 'Herbalook | קטלוג ג׳רבה מאטה אורגנית לעסקים'
-    : 'אודות Herbalook | ג׳רבה מאטה אורגנית מאז 1994';
+    ? 'Herbalook | קטלוג ירבה מאטה אורגנית לעסקים'
+    : 'אודות Herbalook | ירבה מאטה אורגנית מאז 1994';
 
   const description = isHome
-    ? 'Herbalook — ייבוא ושיווק ג׳רבה מאטה אורגנית פרמיום לקמעונאים ומשווקים. מגוון מוצרים, סטים וכלים. הצעת מחיר מותאמת | 052-3834722 | herbalook.online'
-    : 'הכירו את Herbalook — חברה המתמחה בייבוא ושיווק ג׳רבה מאטה אורגנית מדרום אמריקה מאז 1994. מקורות מובחרים מארגנטינה, פאראגואי ואורוגואי.';
+    ? 'Herbalook — ייבוא ושיווק ירבה מאטה אורגנית פרמיום לקמעונאים ומשווקים. מגוון מוצרים, סטים וכלים. הצעת מחיר מותאמת | 052-3834722 | herbalook.online'
+    : 'הכירו את Herbalook — חברה המתמחה בייבוא ושיווק ירבה מאטה אורגנית מדרום אמריקה מאז 1994. מקורות מובחרים מארגנטינה, פאראגואי ואורוגואי.';
 
   const canonical = isHome ? SITE_URL : `${SITE_URL}/about`;
 
@@ -68,7 +68,7 @@ export function SEOHead({ page = 'home' }: SEOHeadProps) {
       <meta name="author" content="Herbalook" />
       <meta
         name="keywords"
-        content="ג׳רבה מאטה, yerba mate, מאטה אורגני, קטלוג סיטונאי, Herbalook, מאטה לעסקים, ייבוא מאטה, מאטה ישראל, מאטה אורגנית, herbalook.online"
+        content="ירבה מאטה, yerba mate, מאטה אורגני, קטלוג סיטונאי, Herbalook, מאטה לעסקים, ייבוא מאטה, מאטה ישראל, מאטה אורגנית, herbalook.online"
       />
 
       {/* Open Graph */}
@@ -81,7 +81,7 @@ export function SEOHead({ page = 'home' }: SEOHeadProps) {
       <meta property="og:image" content={OG_IMAGE} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content="Herbalook — ג׳רבה מאטה אורגנית" />
+      <meta property="og:image:alt" content="Herbalook — ירבה מאטה אורגנית" />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />

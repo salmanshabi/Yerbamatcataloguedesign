@@ -38,11 +38,11 @@ const benefits = [
   { icon: Zap, title: 'אנרגיה טבעית מתמשכת', description: 'קפאין מאוזן בשילוב יאוברומין מספק אנרגיה חלקה ומתמשכת ללא נפילות או עצבנות.' },
   { icon: Heart, title: 'בריאות הלב', description: 'עשיררקדי חמצון ופוליפנולים התומכים בבריאות הלב ורמות כולסטרול תקינות.' },
   { icon: Shield, title: 'חיזוק מערכת החיסון', description: 'עשיר בוויטמינים C ו-E ומינרלים חיוניים לחיזוק המערכת החיסונית באופן טבעי.' },
-  { icon: Leaf, title: '100% טבעי וטהור', description: 'ללא תוספים, ללא טעמים מלאכותיים. רק ג׳רבה מאטה פרמיום כפי שהטבע יצר.' },
+  { icon: Leaf, title: '100% טבעי וטהור', description: 'ללא תוספים, ללא טעמים מלאכותיים. רק ירבה מאטה פרמיום כפי שהטבע יצר.' },
 ];
 
 const partnerReasons = [
-  { icon: TrendingUp, title: 'שוק בצמיחה — היכנסו לפני כולם', description: 'ג׳רבה מאטה היא אחד המשקאות הפונקציונליים הצמחים ביותר בעולם. הצרכנים כבר מחפשים — תנו להם את זה על המדף שלכם.' },
+  { icon: TrendingUp, title: 'שוק בצמיחה — היכנסו לפני כולם', description: 'ירבה מאטה היא אחד המשקאות הפונקציונליים הצמחים ביותר בעולם. הצרכנים כבר מחפשים — תנו להם את זה על המדף שלכם.' },
   { icon: Package, title: 'גמישות שמתאימה לכל עסק', description: 'בין אם אתם חנות בוטיק או רשת הפצה — יש לנו את הפורמט הנכון. מגוון אריזות ונפחים, ללא התחייבות למינימום שאינו מתאים לכם.' },
   { icon: Users, title: 'אנחנו איתכם גם אחרי ההזמנה', description: 'תקבלו מנהל חשבון אישי, חומרי שיווק מוכנים לשימוש ואימון צוות — כי הצלחה שלכם היא גם הצלחתנו.' },
   { icon: Award, title: 'איכות שאפשר להוכיח ללקוח', description: 'כל מנה עוברת בדיקות מעבדה ומלווה בתיעוד מלא ממקור הגידול ועד האריזה. שקיפות מלאה — בדיוק מה שהלקוח של היום דורש.' },
@@ -70,7 +70,7 @@ const categoryCounts = products.reduce(
 );
 
 const footerCategories: { label: string; category: CategoryFilter }[] = [
-  { label: 'ג׳רבה מאטה', category: 'YerbaMate' },
+  { label: 'ירבה מאטה', category: 'YerbaMate' },
   { label: 'סטים', category: 'Sets' },
   { label: 'כלים לשתייה', category: 'Accessories' },
   { label: 'סבוני מאטה', category: 'Soaps' },
@@ -414,7 +414,7 @@ export default function App() {
                         className="mb-6 text-white"
                         style={{ fontFamily: 'Secular One, sans-serif', fontSize: 'clamp(3rem, 6.5vw, 5rem)', fontWeight: 400, lineHeight: 1.2 }}
                       >
-                        ג׳רבה מאטה<br />
+                        ירבה מאטה<br />
                         <span style={{ color: '#C8963E' }}>לעסק שלך</span>
                       </motion.h1>
 
@@ -426,7 +426,7 @@ export default function App() {
                         className="text-lg mb-8 leading-relaxed mx-auto"
                         style={{ color: 'rgba(255,255,255,0.75)', maxWidth: '600px' }}
                       >
-                        שתפו פעולה עם Herbalook להציע ג׳רבה מאטה אורגנית ואותנטית ללקוחותיכם. איכות מוסמכת, הזמנות גמישות ותמיכה ייעודית לקמעונאים ומשווקים.
+                        שתפו פעולה עם Herbalook להציע ירבה מאטה אורגנית ואותנטית ללקוחותיכם. איכות מוסמכת, הזמנות גמישות ותמיכה ייעודית לקמעונאים ומשווקים.
                       </motion.p>
 
                       {/* CTAs */}
@@ -508,7 +508,7 @@ export default function App() {
                       מגוון המוצרים שלנו
                     </h2>
                     <p className="mt-4 text-base max-w-xl mx-auto" style={{ color: '#5A7260', lineHeight: 1.8 }}>
-                      ג׳רבה מאטה פרמיום ממשקים מוסמכים בארגנטינה, ברזיל ואורוגוואי. מגוון SKU ואפשרויות אריזה להתאמה לצרכי העסק שלך.
+                      ירבה מאטה פרמיום ממשקים מוסמכים בארגנטינה, ברזיל ואורוגוואי. מגוון SKU ואפשרויות אריזה להתאמה לצרכי העסק שלך.
                     </p>
                   </motion.div>
 
@@ -521,7 +521,7 @@ export default function App() {
                     className="flex flex-wrap justify-center gap-3 mb-10"
                   >
                     {([
-                      { key: 'YerbaMate', label: 'ג׳רבה מאטה' },
+                      { key: 'YerbaMate', label: 'ירבה מאטה' },
                       { key: 'Sets', label: 'סטים' },
                       { key: 'Accessories', label: 'כלים לשתייה' },
                       { key: 'Soaps', label: 'סבוני מאטה' },
@@ -612,7 +612,7 @@ export default function App() {
                   <div className="text-center mb-14">
                     <p className="mb-3" style={{ color: '#C8963E', letterSpacing: '0.1em', fontSize: '0.85rem' }}>בריאות ורווחה</p>
                     <h2 style={{ fontFamily: 'Francois One, sans-serif', fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)', fontWeight: 700, color: '#1C2B1E' }}>
-                      למה הלקוחות שלכם יאהבו ג׳רבה מאטה?
+                      למה הלקוחות שלכם יאהבו ירבה מאטה?
                     </h2>
                     <p className="mt-4 text-base max-w-xl mx-auto" style={{ color: '#5A7260', lineHeight: 1.8 }}>
                       יותר מסתם משקה — מסורת בת מאות שנים עם יתרונות בריאותיים מוכחים שהלקוחות שלכם יחזרו אליהם שוב ושוב.
@@ -857,7 +857,7 @@ export default function App() {
                     <div className="text-right">
                       <img src={logo} alt="Herbalook" className="h-9 brightness-0 invert mb-5 ml-auto" />
                       <p className="leading-relaxed mb-5 text-sm" style={{ color: 'rgba(255,255,255,0.45)' }}>
-                        ג׳רבה מאטה המגודלת בקפידה בדרום אמריקה. מופצת ברחבי העולם לקמעונאים ומשווקים.
+                        ירבה מאטה המגודלת בקפידה בדרום אמריקה. מופצת ברחבי העולם לקמעונאים ומשווקים.
                       </p>
                       <a
                         href="https://www.herbalook.online"

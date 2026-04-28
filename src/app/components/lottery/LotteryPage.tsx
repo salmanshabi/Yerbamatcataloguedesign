@@ -5,11 +5,10 @@ import { Toaster } from 'sonner';
 import { AnimatePresence } from 'motion/react';
 import LotteryForm from './LotteryForm';
 import LotterySuccess from './LotterySuccess';
-
-type PageState = 'form' | 'success';
+import type { LotteryResult } from './lottery-types';
 
 export default function LotteryPage() {
-  const [state, setState] = useState<PageState>('form');
+  const [result, setResult] = useState<LotteryResult | null>(null);
 
   return (
     <div
@@ -105,13 +104,10 @@ export default function LotteryPage() {
 
         {/* Form / Success */}
         <AnimatePresence mode="wait">
-          {state === 'form' ? (
-            <LotteryForm
-              key="form"
-              onSuccess={() => setState('success')}
-            />
+          {result === null ? (
+            <LotteryForm key="form" onSuccess={setResult} />
           ) : (
-            <LotterySuccess key="success" />
+            <LotterySuccess key="result" result={result} />
           )}
         </AnimatePresence>
       </main>

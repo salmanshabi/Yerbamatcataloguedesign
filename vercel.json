@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/lottery",
+      "has": [{ "type": "host", "value": "lottery.herbalookcatalogue.com" }],
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/lottery.html", "has": [{ "type": "host", "value": "lottery.herbalookcatalogue.com" }] },
+    { "source": "/lottery", "destination": "/lottery.html" }
+  ]
+}

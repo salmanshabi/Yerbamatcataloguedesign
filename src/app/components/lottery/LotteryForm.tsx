@@ -4,6 +4,7 @@ import { ArrowLeft, Loader2 } from 'lucide-react';
 import { InputOTP, InputOTPGroup, InputOTPSlot } from '../ui/input-otp';
 import { supabase } from '../supabase/client';
 import { toast } from 'sonner';
+import type { LotteryResult } from './lottery-types';
 
 const LOTTERY_SHEET_URL = import.meta.env.VITE_LOTTERY_GOOGLE_SHEET_URL || '';
 
@@ -17,18 +18,19 @@ const inputStyle: React.CSSProperties = {
 const ERROR_MESSAGES: Record<string, string> = {
   INVALID_CODE_FORMAT: 'הקוד חייב להיות בן 6 תווים',
   MISSING_FIELDS: 'יש למלא את כל השדות',
-  CODE_NOT_FOUND: 'קוד לא תקין — אנא בדקו שהקוד הוזן נכון',
+  CODE_NOT_FOUND: 'קוד לא תקין. אנא בדוק ונסה שוב.',
   CODE_ALREADY_USED: 'קוד זה כבר נוצל',
   DUPLICATE_PHONE: 'מספר הטלפון כבר רשום להגרלה',
   RATE_LIMITED: 'יותר מדי ניסיונות. נסו שוב בעוד דקה',
 };
 
 interface LotteryFormProps {
-  onSuccess: () => void;
+  onSuccess: (result: LotteryResult) => void;
 }
 
 export default function LotteryForm({ onSuccess }: LotteryFormProps) {
   const [code, setCode] = useState('');
+  const [venue, setVenue] = useState('');
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [phone, setPhone] = useState('');
@@ -36,6 +38,7 @@ export default function LotteryForm({ onSuccess }: LotteryFormProps) {
 
   const isValid =
     code.length === 6 &&
+    venue.trim() !== '' &&
     firstName.trim() !== '' &&
     lastName.trim() !== '' &&
     phone.trim() !== '';
@@ -53,19 +56,30 @@ export default function LotteryForm({ onSuccess }: LotteryFormProps) {
     setSending(true);
 
     try {
+      const cleanVenue = venue.trim();
+
       const { data, error } = await supabase.rpc('redeem_lottery_code', {
         p_code: code,
         p_first_name: firstName,
         p_last_name: lastName,
         p_phone: cleanPhone,
+        p_venue: cleanVenue,
       });
 
       if (error) {
+        console.error('[lottery] redeem_lottery_code RPC error:', error);
         toast.error('שגיאה בשליחה. נסו שוב.');
         return;
       }
 
       if (data?.success) {
+        const prizeAmount =
+          typeof data.prize_amount === 'number' ? data.prize_amount : null;
+        const result: LotteryResult =
+          prizeAmount !== null
+            ? { kind: 'winner', amount: prizeAmount }
+            : { kind: 'non_winner' };
+
         if (LOTTERY_SHEET_URL) {
           fetch(LOTTERY_SHEET_URL, {
             method: 'POST',
@@ -76,11 +90,14 @@ export default function LotteryForm({ onSuccess }: LotteryFormProps) {
               firstName,
               lastName,
               phone: cleanPhone,
+              venue: cleanVenue,
+              prizeAmount,
+              outcome: result.kind,
               timestamp: new Date().toISOString(),
             }),
           }).catch(() => {});
         }
-        onSuccess();
+        onSuccess(result);
       } else {
         const msg = ERROR_MESSAGES[data?.error] ?? 'שגיאה לא צפויה. נסו שוב.';
         toast.error(msg);
@@ -139,6 +156,24 @@ export default function LotteryForm({ onSuccess }: LotteryFormProps) {
         <p className="text-center text-xs mt-2" style={{ color: '#9DB89F' }}>
           הקוד מופיע על המוצר שרכשתם
         </p>
+      </div>
+
+      {/* Venue / place of purchase */}
+      <div className="mb-7">
+        <label className="block text-xs mb-2" style={{ color: '#5A7260' }}>
+          מקום הרכישה *
+        </label>
+        <input
+          required
+          type="text"
+          placeholder="שם החנות או העסק"
+          value={venue}
+          onChange={(e) => setVenue(e.target.value)}
+          className="w-full rounded-xl px-4 py-3 text-sm outline-none text-right"
+          style={inputStyle}
+          onFocus={handleFocus}
+          onBlur={handleBlur}
+        />
       </div>
 
       {/* Divider */}

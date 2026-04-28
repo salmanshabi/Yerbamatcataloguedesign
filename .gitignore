@@ -1,1 +1,19 @@
 node_modules
+.vercel
+.env.local
+scripts/outreach/data/
+
+# Build output
+dist/
+
+# Editor/IDE/OS
+.DS_Store
+*.log
+.claude/
+.agents/
+skills-lock.json
+debug.log
+firebase-debug.log
+
+# Supabase CLI cache
+**/.temp/

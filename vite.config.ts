@@ -24,6 +24,10 @@ export default defineConfig({
   assetsInclude: ['**/*.svg', '**/*.csv'],
   build: {
     rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'index.html'),
+        lottery: path.resolve(__dirname, 'lottery.html'),
+      },
       output: {
         manualChunks: {
           'vendor-react': ['react', 'react-dom'],

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { motion } from 'motion/react';
 import { ArrowLeft, Loader2 } from 'lucide-react';
 import { InputOTP, InputOTPGroup, InputOTPSlot } from '../ui/input-otp';
+import { REGEXP_ONLY_DIGITS_AND_CHARS } from 'input-otp';
 import { supabase } from '../supabase/client';
 import { toast } from 'sonner';
 import type { LotteryResult } from './lottery-types';
@@ -141,8 +142,10 @@ export default function LotteryForm({ onSuccess }: LotteryFormProps) {
           <InputOTP
             maxLength={6}
             value={code}
-            onChange={setCode}
+            onChange={(val) => setCode(val.toUpperCase())}
             containerClassName="gap-2"
+            inputMode="text"
+            pattern={REGEXP_ONLY_DIGITS_AND_CHARS}
           >
             <InputOTPGroup className="gap-2">
               <InputOTPSlot index={0} className="!w-11 !h-12 !text-lg !rounded-lg !border" />

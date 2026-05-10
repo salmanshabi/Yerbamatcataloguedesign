@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-05-11",
+  "prize_amount_ils": 50,
+  "count": 50,
+  "notes": "Added on top of the original 30×50₪ codes. Inserted directly into prod via Supabase MCP (no migration — data, not schema). All codes have is_test=false and is_used=false at insertion time.",
+  "codes": [
+    "EN32B6", "5V2C2R", "M6KA4G", "UT9VX6", "VVYVP2",
+    "KF5JP9", "A9FU8W", "JRTRSZ", "9WRBX6", "SUU2H3",
+    "V9MCZA", "3X88Y7", "2YU2HG", "HPYAJ7", "F6GQTU",
+    "B34V8B", "BUZ8XN", "V7B439", "9ZZPB2", "WUCXAK",
+    "Q3G4R9", "VUQ6AC", "TMRRV2", "4FPRGS", "4JYPKV",
+    "8KTRA5", "A5HXW3", "964J4A", "ZV2E56", "YTE7NE",
+    "SRCGHJ", "2MUKP6", "KF9QYR", "MGSZ3B", "4HA8NC",
+    "ATWN35", "7C8J6H", "HPWKG3", "HDQPAR", "H6A7P6",
+    "K9NAEX", "92BC6H", "5MDZ6J", "HKC6RY", "M8XGGS",
+    "84WXCU", "A3C7Q8", "4DDPQ6", "B66ZQE", "6V8T67"
+  ]
+}

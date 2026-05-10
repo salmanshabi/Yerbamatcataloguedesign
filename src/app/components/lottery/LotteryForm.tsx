@@ -21,7 +21,6 @@ const ERROR_MESSAGES: Record<string, string> = {
   MISSING_FIELDS: 'יש למלא את כל השדות',
   CODE_NOT_FOUND: 'קוד לא תקין. אנא בדוק ונסה שוב.',
   CODE_ALREADY_USED: 'קוד זה כבר נוצל',
-  DUPLICATE_PHONE: 'מספר הטלפון כבר רשום להגרלה',
   RATE_LIMITED: 'יותר מדי ניסיונות. נסו שוב בעוד דקה',
   CAMPAIGN_ENDED: 'ההגרלה הסתיימה. תודה רבה לכל המשתתפים!',
 };

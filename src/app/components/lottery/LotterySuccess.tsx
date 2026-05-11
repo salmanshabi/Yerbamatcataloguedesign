@@ -120,7 +120,7 @@ function NonWinnerPanel() {
         className="text-5xl mb-4"
         aria-hidden="true"
       >
-        😔
+        🎟️
       </motion.div>
 
       <h3
@@ -131,14 +131,16 @@ function NonWinnerPanel() {
           fontSize: '1.4rem',
         }}
       >
-        לא זכית הפעם
+        מברוק 🎉
       </h3>
 
       <p
         className="text-sm"
         style={{ color: '#5A7260', maxWidth: '320px', lineHeight: 1.7 }}
       >
-        הקוד שלך ממשיך להשתתף בהגרלה הבאה שתתקיים בקרוב.
+        כרטיס זה משתתף בהגרלה
+        <br />
+        בתאריך 30/6/26
       </p>
     </motion.div>
   );
